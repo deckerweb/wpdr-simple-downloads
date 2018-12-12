@@ -37,7 +37,7 @@ do_action( 'wpdrsd_usage_tab_before' );
 					<label for="wpdrsd_update_downloads">
 						<?php echo sprintf(
 							/* translators: %s - opening and closing link markup */
-							__( 'To update an existing file/ document just %sopen an existing item%s and upload a new version (revision). The file/ document peramlink will always point to the latest revision! Yes, it\'s so easy :)', 'wpdr-simple-downloads' ),
+							__( 'To update an existing file/ document just %sopen an existing item%s and upload a new version (revision). The file/ document permalink will always point to the latest revision! Yes, it\'s so easy :)', 'wpdr-simple-downloads' ),
 							'<a href="' . esc_url( admin_url( 'edit.php?post_type=document' ) ) . '">',
 							'</a>'
 						); ?>

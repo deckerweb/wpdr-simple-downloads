@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Document Revisions Simple DownloadsPOT-Creation-Date: "
 "2018-12-12 11:07+0100\n"
-"POT-Creation-Date: 2018-12-12 21:16+0100\n"
-"PO-Revision-Date: 2018-12-12 21:17+0100\n"
+"POT-Creation-Date: 2018-12-12 23:27+0100\n"
+"PO-Revision-Date: 2018-12-12 23:27+0100\n"
 "Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language: de_DE\n"
@@ -46,8 +46,8 @@ msgstr "WP Document Revisions"
 
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-settings-form.php:24
-#: includes/admin/wpdrsd-admin-extras.php:179
-#: includes/admin/wpdrsd-admin-extras.php:208
+#: includes/admin/wpdrsd-admin-extras.php:158
+#: includes/admin/wpdrsd-admin-extras.php:187
 #: includes/admin/wpdrsd-admin-settings-help.php:35
 msgid "Simple Downloads"
 msgstr "Einfache Downloads"
@@ -113,7 +113,7 @@ msgstr ""
 #: includes/admin/views/wpdrsd-settings-tab.php:83
 #: includes/admin/views/wpdrsd-settings-tab.php:124
 #: includes/admin/views/wpdrsd-settings-tab.php:200
-#: includes/admin/wpdrsd-admin-extras.php:52 includes/wpdrsd-functions.php:51
+#: includes/admin/wpdrsd-admin-extras.php:31 includes/wpdrsd-functions.php:51
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -319,13 +319,13 @@ msgstr "Änderungen speichern"
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-usage-tab.php:22
 #: includes/admin/views/wpdrsd-usage-tab.php:25
-#: includes/admin/wpdrsd-admin-extras.php:252
+#: includes/admin/wpdrsd-admin-extras.php:231
 msgid "Insert Downloads"
 msgstr "Downloads einfügen"
 
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-usage-tab.php:27
-#: includes/admin/wpdrsd-admin-extras.php:254
+#: includes/admin/wpdrsd-admin-extras.php:233
 msgid ""
 "To insert a download file link into a Post, Page or Custom Post Type, use "
 "the regular \"Insert Link\" feature, search for your Download/ Document file "
@@ -339,18 +339,17 @@ msgstr ""
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-usage-tab.php:33
 #: includes/admin/views/wpdrsd-usage-tab.php:36
-#: includes/admin/wpdrsd-admin-extras.php:256
+#: includes/admin/wpdrsd-admin-extras.php:235
 msgid "Update Downloads"
 msgstr "Downloads aktualisieren"
 
 # @ wpdr-simple-downloads
 #. translators: %s - opening and closing link markup
 #: includes/admin/views/wpdrsd-usage-tab.php:40
-#: includes/admin/wpdrsd-admin-extras.php:258
 #, php-format
 msgid ""
 "To update an existing file/ document just %sopen an existing item%s and "
-"upload a new version (revision). The file/ document peramlink will always "
+"upload a new version (revision). The file/ document permalink will always "
 "point to the latest revision! Yes, it's so easy :)"
 msgstr ""
 "Um eine existierende Datei/ ein Dokument zu aktualisieren, %söffne einfach "
@@ -361,14 +360,14 @@ msgstr ""
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-usage-tab.php:49
 #: includes/admin/views/wpdrsd-usage-tab.php:52
-#: includes/admin/wpdrsd-admin-extras.php:260
+#: includes/admin/wpdrsd-admin-extras.php:239
 msgid "Front End Display Options"
 msgstr "Frontend-Anzeigeoptionen"
 
 # @ wpdr-simple-downloads
 #. translators: %1$s - opening link markup / %2$s - closing link markup / %3$s - opening link markup / %4$s - code markup / %5$s - opening link markup
 #: includes/admin/views/wpdrsd-usage-tab.php:56
-#: includes/admin/wpdrsd-admin-extras.php:264
+#: includes/admin/wpdrsd-admin-extras.php:243
 #, php-format
 msgid ""
 "You can also use %1$sthird-party plugins%2$s or %3$sWidgets%2$s that support "
@@ -385,65 +384,65 @@ msgstr ""
 "einfach, dennoch effektiv und alles innerhalb der WordPress-Standards."
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:51
+#: includes/admin/wpdrsd-admin-extras.php:30
 msgid "Manage download files"
 msgstr "Download-Dateien verwalten"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:59
+#: includes/admin/wpdrsd-admin-extras.php:38
 msgid "Go to the WP Document Revisions Simple Downloads settings page"
 msgstr ""
 "Zur Einstellungen-Seite von WP Document Revisions Einfache Downloads "
 "gehen ..."
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:60
+#: includes/admin/wpdrsd-admin-extras.php:39
 msgid "Settings"
 msgstr "Einstellungen"
 
 # @ wpdr-simple-downloads
 #. translators: Plugins page listing
-#: includes/admin/wpdrsd-admin-extras.php:112
+#: includes/admin/wpdrsd-admin-extras.php:91
 msgctxt "Plugins page listing"
 msgid "FAQ"
 msgstr "FAQ - Häufige Fragen"
 
 # @ wpdr-simple-downloads
 #. translators: Plugins page listing
-#: includes/admin/wpdrsd-admin-extras.php:115
+#: includes/admin/wpdrsd-admin-extras.php:94
 msgctxt "Plugins page listing"
 msgid "Support"
 msgstr "Support"
 
 #. translators: Plugins page listing
-#: includes/admin/wpdrsd-admin-extras.php:118
+#: includes/admin/wpdrsd-admin-extras.php:97
 msgctxt "Plugins page listing"
 msgid "Facebook Group"
 msgstr "Facebook-Gruppe"
 
 # @ wpdr-simple-downloads
 #. translators: Plugins page listing
-#: includes/admin/wpdrsd-admin-extras.php:121
+#: includes/admin/wpdrsd-admin-extras.php:100
 msgctxt "Plugins page listing"
 msgid "Translations"
 msgstr "Übersetzungen"
 
 # @ wpdr-simple-downloads
 #. translators: Plugins page listing
-#: includes/admin/wpdrsd-admin-extras.php:124
+#: includes/admin/wpdrsd-admin-extras.php:103
 msgctxt "Plugins page listing"
 msgid "Donate"
 msgstr "Spenden"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:179
-#: includes/admin/wpdrsd-admin-extras.php:208
+#: includes/admin/wpdrsd-admin-extras.php:158
+#: includes/admin/wpdrsd-admin-extras.php:187
 #: includes/admin/wpdrsd-admin-settings-help.php:35
 msgid "WPDR"
 msgstr "WPDR"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:229
+#: includes/admin/wpdrsd-admin-extras.php:208
 #: includes/admin/wpdrsd-admin-settings-help.php:73
 #: wpdr-simple-downloads.php:158
 msgid "Plugin"
@@ -451,7 +450,7 @@ msgstr "Plugin"
 
 # @ wpdr-simple-downloads
 #. Plugin Name of the plugin/theme
-#: includes/admin/wpdrsd-admin-extras.php:229
+#: includes/admin/wpdrsd-admin-extras.php:208
 #: includes/admin/wpdrsd-admin-settings-help.php:73
 #: includes/admin/wpdrsd-admin-settings-help.php:89
 #: includes/admin/wpdrsd-admin-settings-help.php:106
@@ -462,30 +461,43 @@ msgid "WP Document Revisions Simple Downloads"
 msgstr "WP Document Revisions Einfache Downloads"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:289
+#: includes/admin/wpdrsd-admin-extras.php:237
+#, php-format
+msgid ""
+"To update an existing file/ document just %sopen an existing item%s and "
+"upload a new version (revision). The file/ document peramlink will always "
+"point to the latest revision! Yes, it's so easy :)"
+msgstr ""
+"Um eine existierende Datei/ ein Dokument zu aktualisieren, %söffne einfach "
+"ein bestehendes Element%s und lade eine neue Version (Revision) hoch. Der "
+"Permalink der Datei/ des Dokuments wird immer auf die aktuelleste Version "
+"verweisen! Ja, es ist so einfach :)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:268
 msgid "Included Widgets by the plugin"
 msgstr "Im Plugin enthaltene Widgets"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:291
+#: includes/admin/wpdrsd-admin-extras.php:270
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:39
 msgid "WPDRSD: Popular Downloads"
 msgstr "WPDRSD: Beliebte Downloads"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:291
+#: includes/admin/wpdrsd-admin-extras.php:270
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:33
 msgid "Displays the most popular/ accessed Downloads."
 msgstr "Zeigt die beliebtesten/ meist aufgerufenen Downloads an."
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:293
+#: includes/admin/wpdrsd-admin-extras.php:272
 #: includes/widgets/wpdrsd-widget-search.php:39
 msgid "WPDRSD: Search Downloads"
 msgstr "WPDRSD: Downloads-Suche"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:293
+#: includes/admin/wpdrsd-admin-extras.php:272
 #: includes/widgets/wpdrsd-widget-search.php:33
 msgid ""
 "Search for Downloads/ Documents by the WP Documents Revision Simple "
@@ -497,88 +509,88 @@ msgstr ""
 "mit der regulären WordPress-Suche!)"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:295
+#: includes/admin/wpdrsd-admin-extras.php:274
 #: includes/widgets/wpdrsd-widget-taxonomies.php:39
 msgid "WPDRSD: File Categories / Tags"
 msgstr "WPDRSD: Datei-Kategorien/ -Schlagwörter"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:295
+#: includes/admin/wpdrsd-admin-extras.php:274
 #: includes/widgets/wpdrsd-widget-taxonomies.php:33
 msgid "Displays File Categories or File Tags for Downloads."
 msgstr "Datei-Kategorien oder Datei-Schlagwörter für Downloads anzeigen."
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:323
+#: includes/admin/wpdrsd-admin-extras.php:302
 msgid "Important plugin links:"
 msgstr "Wichtige Plugin-Links:"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:325
+#: includes/admin/wpdrsd-admin-extras.php:304
 msgid "Plugin website"
 msgstr "Plugin-Webseite"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:327
+#: includes/admin/wpdrsd-admin-extras.php:306
 msgctxt "Help tab info"
 msgid "FAQ"
 msgstr "FAQ - Häufige Fragen"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:329
+#: includes/admin/wpdrsd-admin-extras.php:308
 msgctxt "Help tab info"
 msgid "Support"
 msgstr "Support"
 
-#: includes/admin/wpdrsd-admin-extras.php:331
+#: includes/admin/wpdrsd-admin-extras.php:310
 msgctxt "Help tab info"
 msgid "Facebook Group"
 msgstr "Facebook-Gruppe"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:333
+#: includes/admin/wpdrsd-admin-extras.php:312
 msgctxt "Help tab info"
 msgid "Translations"
 msgstr "Übersetzungen"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:335
+#: includes/admin/wpdrsd-admin-extras.php:314
 msgctxt "Help tab info"
 msgid "Donate"
 msgstr "Spenden"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:366
+#: includes/admin/wpdrsd-admin-extras.php:345
 msgid "More about the plugin author"
 msgstr "Mehr über den Plugin-Autor"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:368
+#: includes/admin/wpdrsd-admin-extras.php:347
 msgid "Social:"
 msgstr "Vernetzen:"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:391
+#: includes/admin/wpdrsd-admin-extras.php:370
 msgid "Actions"
 msgstr "Aktionen"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:393
+#: includes/admin/wpdrsd-admin-extras.php:372
 msgid "Support Forum"
 msgstr "Support-Forum"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:394
+#: includes/admin/wpdrsd-admin-extras.php:373
 msgid "Donate"
 msgstr "Spenden"
 
-#: includes/admin/wpdrsd-admin-extras.php:536
+#: includes/admin/wpdrsd-admin-extras.php:515
 msgctxt "Plugin installer: Tab name in installer toolbar"
 msgid "Newest"
 msgstr "Neueste"
 
 # @ wpdr-simple-downloads
-#: includes/admin/wpdrsd-admin-extras.php:542
+#: includes/admin/wpdrsd-admin-extras.php:521
 msgctxt "Plugin card: plugin version"
 msgid "Version:"
 msgstr "Version:"
@@ -918,7 +930,7 @@ msgstr "ID dieses Downloads:"
 
 # @ wpdr-simple-downloads
 #. Author of the plugin/theme
-#: includes/wpdrsd-functions-global.php:274
+#: includes/wpdrsd-functions-global.php:312
 msgid "David Decker - DECKERWEB"
 msgstr "David Decker - DECKERWEB.de"
 

@@ -68,10 +68,10 @@ For my own projects I needed a new but robust and future-proof plugin with a cus
 
 
 ### Translations 
-- English (United States) - `en_US` = default, always included
-- [German (informal, default)](https://translate.wordpress.org/locale/de/default/wp-plugins/wpdr-simple-downloads) - `de_DE` - always included
-- [German (formal)](https://translate.wordpress.org/locale/de/formal/wp-plugins/wpdr-simple-downloads) - `de_DE_formal` - always included
-- `.pot` file (`wpdr-simple-downloads.pot`) for translators is always included in the plugin's 'languages' folder :)
+* English (United States) - `en_US` = default, always included
+* [German (informal, default)](https://translate.wordpress.org/locale/de/default/wp-plugins/wpdr-simple-downloads) - `de_DE` - always included
+* [German (formal)](https://translate.wordpress.org/locale/de/formal/wp-plugins/wpdr-simple-downloads) - `de_DE_formal` - always included
+* `.pot` file (`wpdr-simple-downloads.pot`) for translators is always included in the plugin's 'languages' folder :)
 
 
 ### Be a Contributor 
@@ -81,19 +81,27 @@ You can also contribute code-wise via our [WP Document Revisions Simple Download
 
 
 ### Documentation and Support 
-- If you have any more questions, visit our support on the [Plugin's Forum](https://wordpress.org/support/plugin/wpdr-simple-downloads).
+* If you have any more questions, visit our support on the [Plugin's Forum](https://wordpress.org/support/plugin/wpdr-simple-downloads).
 
 
 ### Liked WP Document Revisions Simple Downloads? 
-- Then please **rate us 5 stars** on [WordPress.org](https://wordpress.org/support/plugin/wpdr-simple-downloads/reviews/?filter=5/#new-post) :)
-- Join our [**Facebook User Community Support Group**](https://www.facebook.com/groups/deckerweb.wordpress.plugins/)
-- Like our [**Facebook Info Page for Deckerweb Plugins**](https://www.facebook.com/deckerweb.wordpress.plugins/)
+* Then please **rate us 5 stars** on [WordPress.org](https://wordpress.org/support/plugin/wpdr-simple-downloads/reviews/?filter=5/#new-post) :)
+* Join our [**Facebook User Community Support Group**](https://www.facebook.com/groups/deckerweb.wordpress.plugins/)
+* Like our [**Facebook Info Page for Deckerweb Plugins**](https://www.facebook.com/deckerweb.wordpress.plugins/)
+
+
+### Recommended Time Saver 
+Try [**Toolbar Extras**](https://toolbarextras.com/) my other plugin for Site Builders and admins: Building sites with Elementor? [**Your work will get easier & faster with Toolbar Extras.**](https://wordpress.org/plugins/toolbar-extras/) With extended plugin & theme support baked right in. Of course, "Builder Template Categories" is integrated as well :)
+
+* [Plugin Page here on WordPress.org](https://wordpress.org/plugins/toolbar-extras/)
+* [Plugin's own website toolbarextras.com](https://toolbarextras.com/)
+* In your WordPress admin dashboard search for `toolbar extras` in the plugin installer ;-)
 
 
 ### This Plugin ... 
-- ... scratches my own itch!
-- ... is *Quality Made in Germany*
-- ... was created with love (plus some coffee) :-) - [if you like it consider donating](https://www.paypal.me/deckerweb)
+* ... scratches my own itch!
+* ... is *Quality Made in Germany*
+* ... was created with love (plus some coffee) :-) - [if you like it consider donating](https://www.paypal.me/deckerweb)
 
 
 
