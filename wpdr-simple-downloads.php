@@ -9,7 +9,6 @@
  * @link              https://www.facebook.com/groups/deckerweb.wordpress.plugins/
  *
  * @wordpress-plugin
-
  * Plugin Name:       WP Document Revisions Simple Downloads
  * Plugin URI:        http://github.com/deckerweb/wpdr-simple-downloads
  * Description:       Use the WP Document Revisions plugin as very basic & simple download manager with this additional add-on plugin.
