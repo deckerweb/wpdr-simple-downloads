@@ -27,6 +27,7 @@
 * Update: Changed admin icon to newest WP standard, using Dashicon
 * Update: Enhanced security
 * Update: Lots of code tweaks and improvements throughout the plugin; all code now properly hooked
+* Update: Updated all internal plugin links to current state, deleted the ones that were dead or no longer needed
 * Update: `.pot` file for translators, plus German translations
 * Update: Readme.txt file
 * *Trivia fact: this plugin is already over 6 (six!) years old. Whoa, that's a lot. ;-)*
