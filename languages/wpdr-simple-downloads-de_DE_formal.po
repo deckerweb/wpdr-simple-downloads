@@ -1,0 +1,1166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Document Revisions Simple DownloadsPOT-Creation-Date: "
+"2018-12-12 11:07+0100\n"
+"POT-Creation-Date: 2018-12-12 21:16+0100\n"
+"PO-Revision-Date: 2018-12-12 21:16+0100\n"
+"Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpdr-simple-downloads.php\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-form.php:18
+#: includes/admin/wpdrsd-admin-settings.php:34
+#: includes/admin/wpdrsd-admin-settings.php:35
+msgid "Download Settings"
+msgstr "Download-Einstellungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-form.php:19
+msgid "Usage"
+msgstr "Verwendung"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-form.php:24
+#: includes/admin/views/wpdrsd-settings-tab.php:68
+#: includes/admin/views/wpdrsd-settings-tab.php:86
+#: includes/admin/views/wpdrsd-settings-tab.php:102
+#: includes/admin/wpdrsd-admin-settings-help.php:121
+msgid "WP Document Revisions"
+msgstr "WP Document Revisions"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-form.php:24
+#: includes/admin/wpdrsd-admin-extras.php:179
+#: includes/admin/wpdrsd-admin-extras.php:208
+#: includes/admin/wpdrsd-admin-settings-help.php:35
+msgid "Simple Downloads"
+msgstr "Einfache Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:30
+msgid "Network Admin &#x2192; Settings"
+msgstr "Netzwerkverwaltung &#x2192; Einstellungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:35
+msgid "Settings &#x2192; Media"
+msgstr "Einstellungen &#x2192; Medien"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:54
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:58
+#: includes/admin/views/wpdrsd-settings-tab.php:61
+msgid "File Upload Directory"
+msgstr "Datei-Hochladeverzeichnis"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:64
+#, php-format
+msgid ""
+"Directory in which to store uploaded documents. The default is in your %1$s "
+"folder (or another default uploads folder defined elsewhere). It can also be "
+"moved to a folder outside of the %2$s or %3$s folder on your server - all "
+"for added security. This is an original, built-in setting of %4$s and to be "
+"found on %5$s."
+msgstr ""
+"Verzeichnis, in dem hochgeladene Downloads gespeichert werden sollen. "
+"Standard ist im Verzeichnis %1$s (oder ein anderer Standardverzeichnis, das "
+"woanders festgelegt wurde). Es kann jedoch für zusätzliche Sicherhait auch "
+"in ein Verzeichnis ausserhalb von %2$s oder %3$s auf Ihrem Webserver "
+"verschoben werden. &mdash; Dies ist eine originale Einstellung des %4$s "
+"Plugins und unter %5$s zu finden."
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:76
+#: includes/admin/views/wpdrsd-settings-tab.php:79
+msgid "Post Type Slug"
+msgstr "Inhaltstyp-Permalinkteil"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:82
+#, php-format
+msgid ""
+"It's highly recommended you set the <strong>permalink base slug</strong> for "
+"the %1$s (or %2$s) post type to something like %3$s. This is an original, "
+"built-in setting of %4$s and to be found on %5$s."
+msgstr ""
+"Es wird sehr empfohlen, dass Sie den Basis-Permalinkteil (Slug) für den "
+"%1$s- (oder %2$s-) Inhaltstyp auf %3$s oder etwas Ähnlichem festlegen. "
+"&mdash; Dies ist eine originale Einstellung des %4$s Plugins und unter %5$s "
+"zu finden."
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:83
+#: includes/admin/views/wpdrsd-settings-tab.php:124
+#: includes/admin/views/wpdrsd-settings-tab.php:200
+#: includes/admin/wpdrsd-admin-extras.php:52 includes/wpdrsd-functions.php:51
+msgid "Downloads"
+msgstr "Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:84
+#: includes/admin/views/wpdrsd-settings-tab.php:124
+#: includes/admin/views/wpdrsd-settings-tab.php:200
+msgid "Documents"
+msgstr "Dokumente"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:85
+msgctxt "Translators: slug string"
+msgid "downloads"
+msgstr "downloads"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:95
+#: includes/admin/views/wpdrsd-settings-tab.php:98
+msgid "Revisions Feed Privacy"
+msgstr "Revisionen - Feed-Privatsphäre"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:101
+#, php-format
+msgid ""
+"Secret Feed Key &mdash; To protect your privacy, you need to append a key to "
+"feeds for use in feed readers. This is an original, built-in setting of %1$s "
+"and to be found on %2$s."
+msgstr ""
+"Geheimer Feed-Schlüssel &mdash; Um Ihre Privatsphäre zu schützen, müssen Sie "
+"Ihrem Feed einen Schlüssel anhängen, damit er in Feed-Readern verwendet "
+"werden kann. &mdash; Dies ist eine originale Einstellung des %1$s Plugins "
+"und unter %2$s zu finden."
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:103
+msgid "Users &#x2192; Your Profile"
+msgstr "Benutzer &#x2192; Ihr Profil"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:113
+msgid "Download Management"
+msgstr "Download-Verwaltung"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:118
+msgid "Post Type Labels &amp; Icons"
+msgstr "Inhaltstyp-Beschriftungen &amp; -Icons"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:121
+msgid "Post Type Labels"
+msgstr "Inhaltstyp-Beschriftungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:124
+#, php-format
+msgid ""
+"Use %1$s as the wording for the post type labels (instead of %2$s), plus, "
+"display the %1$s icons (not the %2$s icons)"
+msgstr ""
+"Verwenden Sie %1$s als die Bezeichnung für die Inhaltstypen-Beschriftungen "
+"(anstelle von %2$s). Lassen Sie außerdem die %1$s-Icons anzeigen (nicht die "
+"%2$s-Icons)."
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:130
+msgid "Post Type Taxonomies &amp; Widgets"
+msgstr "Inhaltstyp-Taxonomien &amp; -Widgets"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:133
+msgid "Post Type Taxonomies"
+msgstr "Inhaltstyp-Taxonomien"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:136
+#, php-format
+msgid ""
+"Use the additional %1$s taxonomy (hierarchical, like %2$s), plus, the "
+"appropriate widget"
+msgstr ""
+"Verwenden Sie die zusätzliche %1$s Taxonomie (hierarchisch, wie %2$s), plus, "
+"das passende Widget"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:136
+#: includes/widgets/wpdrsd-widget-taxonomies.php:298
+#: includes/wpdrsd-taxonomies.php:42
+msgid "File Categories"
+msgstr "Dateikategorien"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:136
+msgid "Post Categories"
+msgstr "Beitrags-Kategorien"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:140
+#, php-format
+msgid ""
+"Use the additional %1$s taxonomy (not hierarchical, like %2$s), plus, the "
+"appropriate widget"
+msgstr ""
+"Verwenden Sie die zusätzliche %1$s Taxonomie (nicht hierarchisch, wie %2$s), "
+"plus, das passende Widget"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:140
+#: includes/widgets/wpdrsd-widget-taxonomies.php:301
+#: includes/wpdrsd-taxonomies.php:72
+msgid "File Tags"
+msgstr "Datei-Schlagwörter"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:140
+msgid "Post Tags"
+msgstr "Beitrags-Schlagwörter (Tags)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:146
+#: includes/admin/views/wpdrsd-settings-tab.php:149
+msgid "Permalinks"
+msgstr "Permalinks"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:152
+msgid "Remove Date (Year, Month) from the Download Permalinks"
+msgstr "Datum (Jahr, Monat) von den Download-Permalinks entfernen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:158
+#: includes/admin/views/wpdrsd-settings-tab.php:162
+msgid "Default Visibility"
+msgstr "Standard-Sichtbarkeit"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:165
+#, php-format
+msgid ""
+"For newly added downloads/ documents: change default visibility to %1$s "
+"(instead of %2$s)"
+msgstr ""
+"Für neu hinzugefügte Downloads/ Dokumente: Standard-Sichtbarkeit auf %1$s "
+"setzen (anstelle von %2$s)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:165
+msgid "publish"
+msgstr "'publish' (entspricht: öffentlich)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:165
+msgid "private"
+msgstr "'private' (entspricht: privat, nicht-öffentlich)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:171
+#: includes/admin/views/wpdrsd-settings-tab.php:174
+msgid "Revision Log"
+msgstr "Revisionsprotokoll"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:177
+#, php-format
+msgid ""
+"Show excerpt of latest Revision Log (Version Summary) in %spost type table%s"
+msgstr ""
+"Auszug des letzten Revisionsprotokolls (= Versionszusammenfassung) in der "
+"%sInhaltstyp-Tabelle%s anzeigen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:185
+#: includes/admin/wpdrsd-admin-settings-help.php:56
+#: includes/admin/wpdrsd-admin-settings-help.php:141
+#: includes/admin/wpdrsd-admin-settings-help.php:146
+msgid "Translations"
+msgstr "Übersetzungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:190
+#: includes/admin/views/wpdrsd-settings-tab.php:193
+msgid "Translation Sets"
+msgstr "Übersetzungen-Anzeige"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:196
+msgid "Use formal translations (default)"
+msgstr "Formale Übersetzungen verwenden, Sie-Anrede (Standard)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:200
+#, php-format
+msgid "Use translations with %s wording (instead of %s)"
+msgstr "Übersetzungen mit den %s-Bezeichnungen verwenden (anstelle von %s)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-settings-tab.php:211
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-usage-tab.php:22
+#: includes/admin/views/wpdrsd-usage-tab.php:25
+#: includes/admin/wpdrsd-admin-extras.php:252
+msgid "Insert Downloads"
+msgstr "Downloads einfügen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-usage-tab.php:27
+#: includes/admin/wpdrsd-admin-extras.php:254
+msgid ""
+"To insert a download file link into a Post, Page or Custom Post Type, use "
+"the regular \"Insert Link\" feature, search for your Download/ Document file "
+"(searches for title!) and insert the actual link. Really simple, yeah!"
+msgstr ""
+"Um einen Download-Dateilink in einen Beitrag, eine Seite oder einen "
+"Inhaltstyp einzufügen, verwenden Sie einfach die reguläre \"Link einfügen\" "
+"Funktion, suchen nach Ihrer Download-/ Dokumenten-Datei (sucht nach Titel!) "
+"und fügen den Link ein. Wirklich einfach!"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-usage-tab.php:33
+#: includes/admin/views/wpdrsd-usage-tab.php:36
+#: includes/admin/wpdrsd-admin-extras.php:256
+msgid "Update Downloads"
+msgstr "Downloads aktualisieren"
+
+# @ wpdr-simple-downloads
+#. translators: %s - opening and closing link markup
+#: includes/admin/views/wpdrsd-usage-tab.php:40
+#: includes/admin/wpdrsd-admin-extras.php:258
+#, php-format
+msgid ""
+"To update an existing file/ document just %sopen an existing item%s and "
+"upload a new version (revision). The file/ document peramlink will always "
+"point to the latest revision! Yes, it's so easy :)"
+msgstr ""
+"Um eine existierende Datei/ ein Dokument zu aktualisieren, %söffnen Sie "
+"einfach ein bestehendes Element%s und laden Sie eine neue Version (Revision) "
+"hoch. Der Permalink der Datei/ des Dokuments wird immer auf die aktuelleste "
+"Version verweisen! Ja, es ist so einfach :)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/views/wpdrsd-usage-tab.php:49
+#: includes/admin/views/wpdrsd-usage-tab.php:52
+#: includes/admin/wpdrsd-admin-extras.php:260
+msgid "Front End Display Options"
+msgstr "Frontend-Anzeigeoptionen"
+
+# @ wpdr-simple-downloads
+#. translators: %1$s - opening link markup / %2$s - closing link markup / %3$s - opening link markup / %4$s - code markup / %5$s - opening link markup
+#: includes/admin/views/wpdrsd-usage-tab.php:56
+#: includes/admin/wpdrsd-admin-extras.php:264
+#, php-format
+msgid ""
+"You can also use %1$sthird-party plugins%2$s or %3$sWidgets%2$s that support "
+"custom post types to query, display or do anything you want with the %4$s "
+"post type, that we use for the download files. %5$sShortcodes%2$s from the "
+"base plugin are also available. Pretty simple again, yet very effective and "
+"WordPress standards compliant."
+msgstr ""
+"Sie können natürlich alle %1$sDrittanbieter-Plugins%2$s oder %3$sWidgets%2$s "
+"verwenden, die Inhaltstypen (Custom Post Types) unterstützen, um Abfragen "
+"oder beliebige andere Aktionen mit dem %4$s Inhaltstyp auszuführen, den wir "
+"für die Downloads verwenden. %5$sShortcodes%2$s vom Basis-Plugin (WP "
+"Document Revisions) sind ebenso ganz normal verfügbar! Und wieder, es ist so "
+"einfach, dennoch effektiv und alles innerhalb der WordPress-Standards."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:51
+msgid "Manage download files"
+msgstr "Download-Dateien verwalten"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:59
+msgid "Go to the WP Document Revisions Simple Downloads settings page"
+msgstr ""
+"Zur Einstellungen-Seite von WP Document Revisions Einfache Downloads "
+"gehen ..."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:60
+msgid "Settings"
+msgstr "Einstellungen"
+
+# @ wpdr-simple-downloads
+#. translators: Plugins page listing
+#: includes/admin/wpdrsd-admin-extras.php:112
+msgctxt "Plugins page listing"
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+# @ wpdr-simple-downloads
+#. translators: Plugins page listing
+#: includes/admin/wpdrsd-admin-extras.php:115
+msgctxt "Plugins page listing"
+msgid "Support"
+msgstr "Support"
+
+#. translators: Plugins page listing
+#: includes/admin/wpdrsd-admin-extras.php:118
+msgctxt "Plugins page listing"
+msgid "Facebook Group"
+msgstr "Facebook-Gruppe"
+
+# @ wpdr-simple-downloads
+#. translators: Plugins page listing
+#: includes/admin/wpdrsd-admin-extras.php:121
+msgctxt "Plugins page listing"
+msgid "Translations"
+msgstr "Übersetzungen"
+
+# @ wpdr-simple-downloads
+#. translators: Plugins page listing
+#: includes/admin/wpdrsd-admin-extras.php:124
+msgctxt "Plugins page listing"
+msgid "Donate"
+msgstr "Spenden"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:179
+#: includes/admin/wpdrsd-admin-extras.php:208
+#: includes/admin/wpdrsd-admin-settings-help.php:35
+msgid "WPDR"
+msgstr "WPDR"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:229
+#: includes/admin/wpdrsd-admin-settings-help.php:73
+#: wpdr-simple-downloads.php:158
+msgid "Plugin"
+msgstr "Plugin"
+
+# @ wpdr-simple-downloads
+#. Plugin Name of the plugin/theme
+#: includes/admin/wpdrsd-admin-extras.php:229
+#: includes/admin/wpdrsd-admin-settings-help.php:73
+#: includes/admin/wpdrsd-admin-settings-help.php:89
+#: includes/admin/wpdrsd-admin-settings-help.php:106
+#: includes/admin/wpdrsd-admin-settings-help.php:141
+#: includes/admin/wpdrsd-admin-settings.php:34 uninstall.php:42
+#: uninstall.php:52 wpdr-simple-downloads.php:150 wpdr-simple-downloads.php:158
+msgid "WP Document Revisions Simple Downloads"
+msgstr "WP Document Revisions Einfache Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:289
+msgid "Included Widgets by the plugin"
+msgstr "Im Plugin enthaltene Widgets"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:291
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:39
+msgid "WPDRSD: Popular Downloads"
+msgstr "WPDRSD: Beliebte Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:291
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:33
+msgid "Displays the most popular/ accessed Downloads."
+msgstr "Zeigt die beliebtesten/ meist aufgerufenen Downloads an."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:293
+#: includes/widgets/wpdrsd-widget-search.php:39
+msgid "WPDRSD: Search Downloads"
+msgstr "WPDRSD: Downloads-Suche"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:293
+#: includes/widgets/wpdrsd-widget-search.php:33
+msgid ""
+"Search for Downloads/ Documents by the WP Documents Revision Simple "
+"Downloads plugin. Search in downloads only. (No mix up with regular "
+"WordPress search!)"
+msgstr ""
+"Nach Downloads/ Dokumenten (Dateien) des 'WP Documents Revisions Einfache "
+"Downloads' Plugins suchen. Suche beschränkt auf Downloads. (Kein Vermischen "
+"mit der regulären WordPress-Suche!)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:295
+#: includes/widgets/wpdrsd-widget-taxonomies.php:39
+msgid "WPDRSD: File Categories / Tags"
+msgstr "WPDRSD: Datei-Kategorien/ -Schlagwörter"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:295
+#: includes/widgets/wpdrsd-widget-taxonomies.php:33
+msgid "Displays File Categories or File Tags for Downloads."
+msgstr "Datei-Kategorien oder Datei-Schlagwörter für Downloads anzeigen."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:323
+msgid "Important plugin links:"
+msgstr "Wichtige Plugin-Links:"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:325
+msgid "Plugin website"
+msgstr "Plugin-Webseite"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:327
+msgctxt "Help tab info"
+msgid "FAQ"
+msgstr "FAQ - Häufige Fragen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:329
+msgctxt "Help tab info"
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/wpdrsd-admin-extras.php:331
+msgctxt "Help tab info"
+msgid "Facebook Group"
+msgstr "Facebook-Gruppe"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:333
+msgctxt "Help tab info"
+msgid "Translations"
+msgstr "Übersetzungen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:335
+msgctxt "Help tab info"
+msgid "Donate"
+msgstr "Spenden"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:366
+msgid "More about the plugin author"
+msgstr "Mehr über den Plugin-Autor"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:368
+msgid "Social:"
+msgstr "Vernetzen:"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:391
+msgid "Actions"
+msgstr "Aktionen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:393
+msgid "Support Forum"
+msgstr "Support-Forum"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:394
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/admin/wpdrsd-admin-extras.php:536
+msgctxt "Plugin installer: Tab name in installer toolbar"
+msgid "Newest"
+msgstr "Neueste"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-extras.php:542
+msgctxt "Plugin card: plugin version"
+msgid "Version:"
+msgstr "Version:"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:42
+#: includes/admin/wpdrsd-admin-settings-help.php:89
+msgid "Additional Widgets"
+msgstr "Zusätzliche Widgets"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:49
+#: includes/admin/wpdrsd-admin-settings-help.php:106
+msgid "Developers"
+msgstr "Entwickler"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:108
+msgid "This plugin includes a lot of Action Hooks and Filters"
+msgstr "Dieses Plugin enthält viele Action Hooks und Filter"
+
+# @ wpdr-simple-downloads
+#. translators: %s - opening and closing link markup
+#: includes/admin/wpdrsd-admin-settings-help.php:112
+#, php-format
+msgid ""
+"You can find them in our %sDocumentation%s as well as on our %sCode Snippets"
+"%s page (Gist @ GitHub)."
+msgstr ""
+"Sie können diese in unserer %sDokumentation%s finden, genauso wie auf "
+"unserer %sCodeschnipsel%s-Seite (Gist @ GitHub)."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:118
+msgid "Note:"
+msgstr "Hinweis:"
+
+# @ wpdr-simple-downloads
+#. translators: %s - Name of plugin, "WP Document Revisions"
+#: includes/admin/wpdrsd-admin-settings-help.php:120
+#, php-format
+msgid ""
+"Of course, you can still use all hooks and filters from the base plugin, %s!"
+msgstr ""
+"Natürlich können Sie jederzeit auch alle Hooks und Filter des Basis-Plugins, "
+"%s, verwenden!"
+
+# @ wpdr-simple-downloads
+#. translators: %s - opening and closing link markup
+#: includes/admin/wpdrsd-admin-settings-help.php:145
+#, php-format
+msgid ""
+"Please contribute to existing or new translations on %sour free translations "
+"platform%s powered by GlotPress."
+msgstr ""
+"Bitte machen Sie mit und tragen Sie neue oder verbesserte Übersetzungen zu "
+"diesem Plugin bei - einfach über %sunsere freie Übersetzungen-Plattform%s, "
+"angetrieben von GlotPress."
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:149
+msgid "Thank You!"
+msgstr "Danke für jede Mithilfe!"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:154
+msgid "Currently in use"
+msgstr "Derzeit in Verwendung"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:159
+msgid "Currently available languages"
+msgstr "Derzeit verfügbare Sprachen"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:161
+msgid "English (en_US)"
+msgstr "Englisch (<code>en_US</code>)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:161
+msgid "default, always included (by David Decker)"
+msgstr "Standard, immer dabei (von David Decker)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:162
+msgid "German (de_DE): Deutsch"
+msgstr "German (<code>de_DE</code>): Deutsch"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings-help.php:162
+msgid "always included (by David Decker)"
+msgstr "immer dabei (von David Decker)"
+
+# @ wpdr-simple-downloads
+#: includes/admin/wpdrsd-admin-settings.php:152
+msgid "Settings updated."
+msgstr "Einstellungen aktualisiert."
+
+# @ wpdr-simple-downloads
+#: includes/third-party-compat/wpdrsd-genesis-framework.php:41
+msgctxt ""
+"Translators: Taxonomy separator for Genesis child themes (default: &#x00B7; "
+"= &middot;)"
+msgid "&#x00B7;"
+msgstr "&#x00B7;"
+
+# @ wpdr-simple-downloads
+#: includes/third-party-compat/wpdrsd-genesis-framework.php:41
+#: includes/third-party-compat/wpdrsd-genesis-framework.php:49
+msgid "Tagged:"
+msgstr "Stichworte:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:221
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:246
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:270
+msgid "Popular Downloads"
+msgstr "Beliebte Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:239
+#: includes/widgets/wpdrsd-widget-search.php:194
+#: includes/widgets/wpdrsd-widget-taxonomies.php:282
+msgid "Title:"
+msgstr "Titel:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:245
+#: includes/widgets/wpdrsd-widget-search.php:200
+#: includes/widgets/wpdrsd-widget-taxonomies.php:288
+msgid "Optional intro text:"
+msgstr "Optionaler Einführungstext:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:246
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:270
+#: includes/widgets/wpdrsd-widget-search.php:201
+#: includes/widgets/wpdrsd-widget-search.php:232
+#: includes/widgets/wpdrsd-widget-taxonomies.php:289
+#: includes/widgets/wpdrsd-widget-taxonomies.php:347
+#, php-format
+msgid "Add some additional %s info. NOTE: Just leave blank to not use at all."
+msgstr ""
+"Einige Zusatzinfos anzeigen für: %s. HINWEIS: Einfach leer lassen, um das "
+"Feld nicht zu verwenden."
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:252
+msgid "Number of Downloads to show:"
+msgstr "Anzahl anzuzeigender Downloads:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:259
+msgid "Show Download count"
+msgstr "Downloadzähler anzeigen"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:264
+msgid "Download IDs to exclude, separated by comma:"
+msgstr "Auszuschließende Download-IDs, kommagetrennt:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:269
+#: includes/widgets/wpdrsd-widget-search.php:231
+#: includes/widgets/wpdrsd-widget-taxonomies.php:346
+msgid "Optional outro text:"
+msgstr "Optionaler Schlusstext:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:175
+#: includes/wpdrsd-functions.php:47
+msgid "Search Downloads"
+msgstr "Downloads suchen"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:176
+msgid "Search download files for:"
+msgstr "In Download-Dateien suchen nach:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:177
+msgid "Search Downloads&#x2026;"
+msgstr "Downloads suchen&#x2026;"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:178
+#: includes/widgets/wpdrsd-widget-search.php:201
+#: includes/widgets/wpdrsd-widget-search.php:232
+msgid "Search"
+msgstr "Suchen"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:208
+msgid "Label string before search input field:"
+msgstr "Beschriftung vor dem Sucheingabefeld:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:210
+#: includes/widgets/wpdrsd-widget-search.php:218
+msgid "NOTE: Leave empty to not use/ display this string!"
+msgstr "HINWEIS: Leer lassen, um diese Option nicht zu verwenden!"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:216
+msgid "Placeholder string for search input field:"
+msgstr "Platzhalter-Begriff für das Sucheingabefeld:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:224
+msgid "Search button string:"
+msgstr "'Suchen'-Button Text:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-search.php:226
+msgid "NOTE: Displaying may depend on your theme settings/ styles."
+msgstr ""
+"HINWEIS: Die Anzeige kann von Ihren Theme-Einstellungen/ -Stilen abhängig "
+"sein."
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:289
+#: includes/widgets/wpdrsd-widget-taxonomies.php:347
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:295
+msgid "Taxonomy:"
+msgstr "Taxonomie:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:307
+msgid "Number of Taxonomy Terms to show:"
+msgstr "Anzahl anzuzeigender Taxonomie-Terms:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:313
+msgid "Sort by:"
+msgstr "Sortieren nach:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:316
+msgid "Term name"
+msgstr "Term-Name"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:317
+msgid "Term count"
+msgstr "Term-Anzahl"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:318
+msgid "Term ID"
+msgstr "Term-ID"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:319
+msgid "Term slug"
+msgstr "Term-Permalinkteil"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:320
+msgid "Term group"
+msgstr "Term-Gruppe"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:329
+msgid "Reverse sort order (to descending)"
+msgstr "Sortierrichtung umkehren (zu absteigend)"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:329
+msgid "Default is ascending"
+msgstr "Standard ist aufsteigend"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:334
+msgid "Taxonomy Term IDs to exclude, separated by comma:"
+msgstr "Auszuschließende Taxonomie-Term-IDs, kommagetrennt:"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:336
+#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+#, php-format
+msgid "Please, use only one or the other alternative, %s or %s!"
+msgstr "Bitte verwenden Sie nur eine Alternative, %s oder %s!"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:336
+#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+msgid "Exclude"
+msgstr "Auschließen"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:336
+#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+msgid "Include"
+msgstr "Einschließen"
+
+# @ wpdr-simple-downloads
+#: includes/widgets/wpdrsd-widget-taxonomies.php:340
+msgid "Taxonomy Term IDs to include, separated by comma:"
+msgstr "Einzuschließende Taxonomie-Term-IDs, kommagetrennt:"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-count.php:30 includes/wpdrsd-download-id.php:30
+#: includes/wpdrsd-functions.php:157
+msgid "Added by WPDR Simple Downloads Plugin"
+msgstr "Hinzugefügt via WPDR Einfache Downloads Plugin"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-count.php:30
+msgid "Clicks"
+msgstr "Aufrufe"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-count.php:126
+msgid "Download Information"
+msgstr "Download-Information"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-count.php:148
+#, php-format
+msgid "This Download has been accessed <strong>%d</strong> times."
+msgstr "Dieser Download wurde bisher <strong>%d</strong> Mal aufgerufen."
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-id.php:30
+msgid "ID"
+msgstr "ID"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-download-id.php:84
+msgid "ID of this Download:"
+msgstr "ID dieses Downloads:"
+
+# @ wpdr-simple-downloads
+#. Author of the plugin/theme
+#: includes/wpdrsd-functions-global.php:274
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:40
+msgctxt "Translators: post type general name (plural)"
+msgid "Downloads"
+msgstr "Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:41
+msgctxt "Translators: post type singular name"
+msgid "Download"
+msgstr "Download"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:42
+msgctxt "Translators: download"
+msgid "Add Download"
+msgstr "Download hinzufügen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:43
+msgid "Add New Download"
+msgstr "Neuen Download hinzufügen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:44
+msgid "Edit Download"
+msgstr "Download bearbeiten"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:45
+msgid "New Download"
+msgstr "Neuer Download"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:46
+msgid "View Download"
+msgstr "Download ansehen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:48
+msgid "No Downloads found"
+msgstr "Es wurden keine Downloads gefunden."
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:49
+msgid "No Downloads found in Trash"
+msgstr "Es befinden sich keine Downloads im Papierkorb."
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:53
+msgctxt "Translators: Toolbar, add new item"
+msgid "Download File"
+msgstr "Datei-Download"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:157
+msgid "Rev. Log"
+msgstr "Vers.-Info"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:180
+msgid "n.a."
+msgstr "k.A."
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-remove-date-from-permalink.php:59
+msgctxt "Translators: revisions slug"
+msgid "revision"
+msgstr "revision"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:32
+msgctxt "Translators: taxonomy general name"
+msgid "File Categories"
+msgstr "Dateikategorien"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:33
+msgctxt "Translators: taxonomy singular name"
+msgid "File Category"
+msgstr "Dateikategorie"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:34
+msgid "Search File Categories"
+msgstr "Dateikategorien suchen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:35
+msgid "All File Categories"
+msgstr "Alle Dateikategorien"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:36
+msgid "Parent File Category"
+msgstr "Übergeordnete Dateikategorie"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:37
+msgid "Parent File Category:"
+msgstr "Übergeordnete Dateikategorie:"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:38
+msgid "Edit File Category"
+msgstr "Dateikategorie bearbeiten"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:39
+msgid "Update File Category"
+msgstr "Dateikategorie aktualisieren"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:40
+msgid "Add New File Category"
+msgstr "Neue Dateikategorie hinzufügen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:41
+msgid "New File Category Name"
+msgstr "Neuer Dateikategorie-Name"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:62
+msgctxt "Translators: taxonomy general name"
+msgid "File Tags"
+msgstr "Datei-Schlagwörter"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:63
+msgctxt "Translators: taxonomy singular name"
+msgid "File Tag"
+msgstr "Datei-Schlagwort"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:64
+msgid "Search File Tags"
+msgstr "Datei-Schlagwörter suchen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:65
+msgid "All File Tags"
+msgstr "Alle Datei-Schlagwörter"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:66
+msgid "Parent File Tag"
+msgstr "Übergeordnetes Datei-Schlagwort"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:67
+msgid "Parent File Tag:"
+msgstr "Übergeordnetes Datei-Schlagwort:"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:68
+msgid "Edit File Tag"
+msgstr "Datei-Schlagwort bearbeiten"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:69
+msgid "Update File Tag"
+msgstr "Datei-Schlagwort aktualisieren"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:70
+msgid "Add New File Tag"
+msgstr "Neues Datei-Schlagwort hinzufügen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:71
+msgid "New File Tag Name"
+msgstr "Neuer Datei-Schlagwort-Name"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:171
+msgid "Show all categories"
+msgstr "Alle Kategorien"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:192
+msgid "Show all tags"
+msgstr "Alle Schlagwörter"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:227
+msgctxt "Translators: Downloads admin column title"
+msgid "Categories"
+msgstr "Kategorien"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-taxonomies.php:252
+msgctxt "Translators: Downloads admin column title"
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: uninstall.php:41
+msgid "You must be logged in to run this script."
+msgstr "Sie müssen angemeldet sein, um dieses Skript ausführen zu können."
+
+#: uninstall.php:51
+msgid "You do not have permission to run this script."
+msgstr "Sie haben keine Berechtigung, um dieses Skript ausführen zu können."
+
+# @ wpdr-simple-downloads
+#. translators: %1$s - name of plugin, "WP Document Revisions Simple Downloads" / %2$s - opening link markup / %3$s - closing link markup
+#: wpdr-simple-downloads.php:149
+#, php-format
+msgid ""
+"Sorry, you cannot activate the %1$s plugin unless you have installed the "
+"latest version of the %2$sWP Document Revisions%3$s plugin."
+msgstr ""
+"Hinweis: Sie können das %1$s Plugin nicht aktivieren, solange Sie nicht die "
+"neueste Version des %2$s'WP Document Revisions'%3$s-Plugin installiert haben."
+
+# @ wpdr-simple-downloads
+#. Plugin URI of the plugin/theme
+msgid "http://github.com/deckerweb/wpdr-simple-downloads"
+msgstr "http://github.com/deckerweb/wpdr-simple-downloads"
+
+# @ wpdr-simple-downloads
+#. Description of the plugin/theme
+msgid ""
+"Use the WP Document Revisions plugin as very basic & simple download manager "
+"with this additional add-on plugin."
+msgstr ""
+"Mit diesem zusätzlichen Add-On Plugin das 'WP Document Revisions' Plugin als "
+"einfachen Download-Manager verwenden."
+
+# @ wpdr-simple-downloads
+#. Author URI of the plugin/theme
+msgid "https://deckerweb.de/"
+msgstr "https://deckerweb.de/"
+
+# @ wpdr-simple-downloads
+#~ msgctxt "Translators: post type general name"
+#~ msgid "Downloads"
+#~ msgstr "Downloads"
+
+# @ wpdr-simple-downloads
+#~ msgid "1.0.0"
+#~ msgstr "1.0.0"

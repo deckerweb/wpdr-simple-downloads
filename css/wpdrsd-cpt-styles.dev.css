@@ -1,0 +1,35 @@
+/**
+ * Plugin: WP Document Revisions Simple Downloads
+ *
+ * @author	David Decker
+ *
+ * @since	1.0.0
+ * @version	1.0.0
+ *
+ * @copyright	Copyright 2012-2013, David Decker - DECKERWEB
+ * @license	GPLv2
+ * @link	http://deckerweb.de/
+ * @package 	wpdr-simple-downloads
+ */
+
+/* Post Type Table
+------------------------------------------------------------ */
+
+th.column-author {
+	width: 10% !important;  /* 150px */
+}
+
+th.column-download_clicks {
+	width: 7% !important;  /* 100px */
+}
+
+th.column-download_id {
+	width: 5% !important;  /* 60px */
+}
+
+th.column-workflow_state,
+th.column-currently_editing,
+th.column-column-taxonomy-wpdr-file-categories,
+th.column-column-taxonomy-wpdr-file-tags {
+	width: 12% !important;
+}
