@@ -1,4 +1,4 @@
-=== Simple Downloads for WP Document Revisions ===
+=== Simple Download Manager for WP Document Revisions ===
 Contributors: daveshine, deckerweb, wpautobahn
 Donate link: https://www.paypal.me/deckerweb
 Tags: downloads, download manager, file manager, files, documents, revisions, widgets, add-on, wp document revisions, easy downloads, simple downloads, deckerweb
@@ -193,29 +193,29 @@ All the custom & branding stuff code above can also be found as a Gist on Github
 
 == Screenshots ==
 
-01. Add-On plugin's settings page. ([Click here for larger version of screenshot](https://www.dropbox.com/s/7f8suebiz5z2r7j/screenshot-1.png))
+01. Add-On plugin's settings page
 
-02. Settings page - "Usage" tab. ([Click here for larger version of screenshot](https://www.dropbox.com/s/ozmp4yhnn3n4jsq/screenshot-2.png))
+02. Settings page - "Usage" tab
 
-03. Admin "Downloads" table with additional stuff added by add-on. ([Click here for larger version of screenshot](https://www.dropbox.com/s/kmiwjymdx2xfo6i/screenshot-03.png))
+03. Admin "Downloads" table with additional stuff added by add-on
 
-04. Edit "Download" view with additional stuff added by add-on. ([Click here for larger version of screenshot](https://www.dropbox.com/s/gcnl9lpy5xor19l/screenshot-4.png))
+04. Edit "Download" view with additional stuff added by add-on
 
-05. Insert Download link via Visual Editor. ([Click here for larger version of screenshot](https://www.dropbox.com/s/duwf83239bl813c/screenshot-5.png))
+05. Insert Download link via Visual Editor
 
-06. Insert Download link via Text Editor (HTML). ([Click here for larger version of screenshot](https://www.dropbox.com/s/34skmbvvdzmz0ra/screenshot-6.png))
+06. Insert Download link via Text Editor (HTML)
 
-07. Popular Downloads widget. ([Click here for larger version of screenshot](https://www.dropbox.com/s/g9lmccdo3yl3vy1/screenshot-7.png))
+07. Popular Downloads widget
 
-08. Search Downloads widget. ([Click here for larger version of screenshot](https://www.dropbox.com/s/6762dkha9mjhl89/screenshot-8.png))
+08. Search Downloads widget
 
-09. Taxonomy Widget - used for "File Categories". ([Click here for larger version of screenshot](https://www.dropbox.com/s/k60osdmx6znakdv/screenshot-9.png))
+09. Taxonomy Widget - used for "File Categories"
 
-10. Taxonomy Widget - used for "File Tags". ([Click here for larger version of screenshot](https://www.dropbox.com/s/9x5y28r84bwcytj/screenshot-10.png))
+10. Taxonomy Widget - used for "File Tags"
 
-11. Original "Recently Revised Downloads" (Documents) widget - by base plugin WPDR :). ([Click here for larger version of screenshot](https://www.dropbox.com/s/3zx3tg6m11ll9yv/screenshot-11.png))
+11. Original "Recently Revised Downloads" (Documents) widget - by base plugin WPDR :)
 
-12. Help tab user guidance included. ([Click here for larger version of screenshot](https://www.dropbox.com/s/m9mz4usyr8xgm5m/screenshot-12.png))
+12. Help tab user guidance included
 
 
 == Changelog ==

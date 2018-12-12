@@ -1,4 +1,4 @@
-# Simple Downloads for WP Document Revisions 
+# Simple Download Manager for WP Document Revisions 
 **Contributors:** daveshine, deckerweb, wpautobahn  
 **Donate link:** https://www.paypal.me/deckerweb  
 **Tags:** downloads, download manager, file manager, files, documents, revisions, widgets, add-on, wp document revisions, easy downloads, simple downloads, deckerweb  
@@ -10,6 +10,8 @@
 **License URI:** https://opensource.org/licenses/GPL-2.0  
 
 Use the WP Document Revisions plugin as very basic & simple download manager with this additional add-on plugin.
+
+[<img src="https://raw.githubusercontent.com/deckerweb/wpdr-simple-downloads/master/assets-repos/github-com/wpdrsd-banner.png" data-canonical-src="https://raw.githubusercontent.com/deckerweb/wpdr-simple-downloads/master/assets-repos/github-com/wpdrsd-banner.png" width="772" height="250" />](https://wordpress.org/plugins/wpdr-simple-downloads/)
 
 
 ## Description 
