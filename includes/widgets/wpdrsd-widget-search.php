@@ -59,35 +59,34 @@ class DDW_WPDRSD_Search_Downloads_Widget extends WP_Widget {
 		/** Set up the arguments */
 		$args = array(
 			'intro_text' => $instance[ 'intro_text' ],
-			'outro_text' => $instance[ 'outro_text' ]
+			'outro_text' => $instance[ 'outro_text' ],
 		);
 
-		$instance = wp_parse_args( (array) $instance, array(
-			'title'            => '',
-			'label_text'       => '', //__( 'Search download files for:', 'wpdr-simple-downloads' ),
-			'placeholder_text' => '', //__( 'Search downloads', 'wpdr-simple-downloads' ),
-			'button_text'      => ''  //__( 'Search', 'wpdr-simple-downloads' )
-		) );
+		$instance = wp_parse_args(
+			(array) $instance,
+			array(
+				'title'            => '',
+				'label_text'       => '',	//__( 'Search download files for:', 'wpdr-simple-downloads' ),
+				'placeholder_text' => '',	//__( 'Search downloads', 'wpdr-simple-downloads' ),
+				'button_text'      => '',	//__( 'Search', 'wpdr-simple-downloads' )
+			)
+		);
 
 		/** Display the before widget HTML */
 		echo $before_widget;
 
 		/** Display the widget title */
 		if ( $instance[ 'title' ] ) {
-
 			echo $before_title . apply_filters( 'widget_title', $instance[ 'title' ] ) . $after_title;
-
-		}  // end-if title
+		}
 
 		/** Action hook 'wpdrsd_before_search_widget' */
 		do_action( 'wpdrsd_before_search_widget' );
 
 		/** Display widget intro text if it exists */
 		if ( ! empty( $instance[ 'intro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-intro"><p class="' . $this->id . '-intro-text wpdrsd-search-intro-text">' . $instance[ 'intro_text' ] . '</p></div>';
-
-		}  // end-if optional intro
+		}
 
 		/** Set filters for various strings */
 		$wpdrsd_label_string = apply_filters( 'wpdrsd_filter_widget_label_string', $instance[ 'label_text' ] );
@@ -97,10 +96,12 @@ class DDW_WPDRSD_Search_Downloads_Widget extends WP_Widget {
 		/** Construct the search form */
 		$form = '<div id="wpdrsd-form-wrapper"><form role="search" method="get" id="searchform" class="searchform wpdrsd-search-form" action="' . home_url() . '">';
 		$form .= '<div class="wpdrsd-form-container">';
+
 			if ( WPDRSD_SEARCH_LABEL_DISPLAY ) {
 				$form .= '<label class="screen-reader-text wpdrsd-label" for="s">' . esc_attr__( $wpdrsd_label_string ) . '</label>';
 				$form .= '<br />';
 			}
+
 			$form .= '<input type="hidden" name="post_type" value="document" />';
 			$form .= '<input type="text" value="' . get_search_query() . '" name="s" id="s" class="s wpdrsd-search-field" placeholder="' . esc_attr__( $wpdrsd_placeholder_string ) . '" />';
 			$form .= '<input type="submit" id="searchsubmit" class="searchsubmit wpdrsd-search-submit" value="' . esc_attr__( $wpdrsd_search_string ) . '" />';
@@ -113,10 +114,8 @@ class DDW_WPDRSD_Search_Downloads_Widget extends WP_Widget {
 
 		/** Display widget outro text if it exists */
 		if ( ! empty( $instance[ 'outro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-outro"><p class="' . $this->id . '-outro_text wpdrsd-search-outro-text">' . $instance[ 'outro_text' ] . '</p></div>';
-
-		}  // end-if optional outro
+		}
 
 		/** Action hook 'wpdrsd_after_search_widget' */
 		do_action( 'wpdrsd_after_search_widget' );
@@ -171,20 +170,23 @@ class DDW_WPDRSD_Search_Downloads_Widget extends WP_Widget {
 	public function form( $instance ) {
 
 		/** Setup defaults parameters */
-		$defaults = apply_filters( 'wpdrsd_filter_widget_search_downloads_defaults', array(
-			'title'            => __( 'Search Downloads', 'wpdr-simple-downloads' ),
-			'label_text'       => __( 'Search download files for:', 'wpdr-simple-downloads' ),
-			'placeholder_text' => __( 'Search Downloads&#x2026;', 'wpdr-simple-downloads' ),
-			'button_text'      => __( 'Search', 'wpdr-simple-downloads' )
-		) );
+		$defaults = apply_filters(
+			'wpdrsd_filter_widget_search_downloads_defaults',
+			array(
+				'title'            => __( 'Search Downloads', 'wpdr-simple-downloads' ),
+				'label_text'       => __( 'Search download files for:', 'wpdr-simple-downloads' ),
+				'placeholder_text' => __( 'Search Downloads&#x2026;', 'wpdr-simple-downloads' ),
+				'button_text'      => __( 'Search', 'wpdr-simple-downloads' ),
+			)
+		);
 
 		/** Get the values from the instance */
 		$instance = wp_parse_args( (array) $instance, $defaults );
 
 		/** Get the values from instance */
-		$title            = ( isset( $instance[ 'title' ] ) ) ? esc_attr( $instance[ 'title' ] ) : null;
-		$intro_text       = ( isset( $instance[ 'intro_text' ] ) ) ? esc_textarea( $instance[ 'intro_text' ] ) : null;
-		$outro_text       = ( isset( $instance[ 'outro_text' ] ) ) ? esc_textarea( $instance[ 'outro_text' ] ) : null;
+		$title      = ( isset( $instance[ 'title' ] ) ) ? esc_attr( $instance[ 'title' ] ) : null;
+		$intro_text = ( isset( $instance[ 'intro_text' ] ) ) ? esc_textarea( $instance[ 'intro_text' ] ) : null;
+		$outro_text = ( isset( $instance[ 'outro_text' ] ) ) ? esc_textarea( $instance[ 'outro_text' ] ) : null;
 
 		/** Begin form code */
 		?>

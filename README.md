@@ -3,7 +3,7 @@
 **Donate link:** https://www.paypal.me/deckerweb  
 **Tags:** downloads, download manager, file manager, files, documents, revisions, widgets, add-on, wp document revisions, easy downloads, simple downloads, deckerweb  
 **Requires at least:** 4.7+  
-**Tested up to:** 5.0.0  
+**Tested up to:** 5.0  
 **Requires PHP:** 5.6  
 **Stable tag:** 1.2.0  
 **License:** GPL-2.0-or-later  
@@ -54,7 +54,7 @@ For my own projects I needed a new but robust and future-proof plugin with a cus
 
 
 ### Requirements 
-* WordPress 4.7+ -- latest version 5.0.0 (or 4.9.8) always recommended!
+* WordPress 4.7+ -- latest version 5.0.x (or 4.9.8) always recommended!
 * Already installed plugin ["WP Document Revisions"](https://wordpress.org/plugins/wp-document-revisions/)
 
 

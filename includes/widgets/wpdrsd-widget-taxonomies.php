@@ -71,21 +71,24 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 		/** Set up the arguments */
 		$args = array(
 			'intro_text' => $instance[ 'intro_text' ],
-			'outro_text' => $instance[ 'outro_text' ]
+			'outro_text' => $instance[ 'outro_text' ],
 		);
 
 		/** Parse args */
-		$instance = wp_parse_args( (array) $instance, array(
-			'title'          => '',
-			'terms_limit'    => $terms_limit,
-			'terms_exclude'  => $terms_exclude,
-			'terms_include'  => $terms_include,
-			'sort_by'        => $sort_by,
-			'asc_sort_order' => $sort_order
-		) );
+		$instance = wp_parse_args(
+			(array) $instance,
+			array(
+				'title'          => '',
+				'terms_limit'    => $terms_limit,
+				'terms_exclude'  => $terms_exclude,
+				'terms_include'  => $terms_include,
+				'sort_by'        => $sort_by,
+				'asc_sort_order' => $sort_order,
+			)
+		);
 
-                /** Set the Downloads item limit */
-                $terms_limit = isset( $instance[ 'terms_limit' ] ) ? absint( $instance[ 'terms_limit' ] ) : '';
+        /** Set the Downloads item limit */
+        $terms_limit = isset( $instance[ 'terms_limit' ] ) ? absint( $instance[ 'terms_limit' ] ) : '';
 
 		/** Get the IDs of excluded "File Category" or "File Tags" taxonomy items */
 		$terms_exclude = $instance[ 'terms_exclude' ];
@@ -108,7 +111,7 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 			'name',
 			'slug',
 			'term_group'
-		);  // end of array
+		);
 
 		/** Sort order logic */
 		if ( in_array( $instance[ 'sort_by' ], $default_sort_orders ) ) {
@@ -123,12 +126,12 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 			$sort_by = 'name';
 			$sort_order = 'ASC';
 		
-		}  // end-if
+		}  // end if
 
 		/** Get the taxonomy from the instance */
 		$tax = $instance[ 'taxonomy' ];
 
-                /** Set the query arguments */
+        /** Set the query arguments */
 		$term_args = array( 
 			'number'  => $terms_limit,
 			'exclude' => $terms_exclude,
@@ -142,20 +145,16 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 
 		/** Display the widget title */
 		if ( $instance[ 'title' ] ) {
-
 			echo $before_title . apply_filters( 'widget_title', $instance[ 'title' ] ) . $after_title;
-
-		}  // end-if title
+		}
 
 		/** Action hook 'wpdrsd_before_taxonomy_widget' */
 		do_action( 'wpdrsd_before_taxonomy_widget' );
 
 		/** Display widget intro text if it exists */
 		if ( ! empty( $instance[ 'intro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-intro"><p class="' . $this->id . '-intro-text wpdrsd-taxonomy-intro-text">' . $instance[ 'intro_text' ] . '</p></div>';
-
-		}  // end-if optional intro
+		}
 
 		/** Get Terms for the set Taxonomy */
 		$terms = get_terms( $tax, $term_args );
@@ -177,14 +176,12 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 
 				echo '</ul>';
 
-			}  // end if-else
+			}  // end if
 
 		/** Display widget outro text if it exists */
 		if ( ! empty( $instance[ 'outro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-outro"><p class="' . $this->id . '-outro_text wpdrsd-taxonomy-outro-text">' . $instance[ 'outro_text' ] . '</p></div>';
-
-		}  // end-if optional outro
+		}
 
 		/** Action hook 'wpdrsd_after_taxonomy_widget' */
 		do_action( 'wpdrsd_after_taxonomy_widget' );
@@ -206,7 +203,6 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 	 *
 	 * @param array $new_instance New settings for this instance as input by the user via form()
 	 * @param array $old_instance Old settings for this instance
-	 *
 	 * @return array Settings to save or bool false to cancel saving
 	 */
 	public function update( $new_instance, $old_instance ) {
@@ -239,7 +235,6 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 	 *
 	 * @uses ddw_wpdrsd_get_options()
 	 *
-	 * @param $options
 	 * @param array $instance Current settings
 	 */
 	public function form( $instance ) {
@@ -352,6 +347,6 @@ class DDW_WPDRSD_Downloads_Taxonomies_Widget extends WP_Widget {
 		<?php
 		/** ^End form code */
 
-	}  // end of method
+	}  // end method
 
 }  // end of class

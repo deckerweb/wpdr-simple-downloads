@@ -59,11 +59,11 @@ class DDW_WPDRSD_Popular_Downloads_Widget extends WP_Widget {
 		/** Set up the arguments */
 		$args = array(
 			'intro_text' => $instance[ 'intro_text' ],
-			'outro_text' => $instance[ 'outro_text' ]
+			'outro_text' => $instance[ 'outro_text' ],
 		);
 
-                /** Set the Downloads item limit */
-                $items_limit = isset( $instance[ 'items_limit' ] ) ? absint( $instance[ 'items_limit' ] ) : 3;
+        /** Set the Downloads item limit */
+        $items_limit = isset( $instance[ 'items_limit' ] ) ? absint( $instance[ 'items_limit' ] ) : 3;
 
 		/** Get the IDs of excluded Downloads items */
 		$items_exclude = $instance[ 'items_exclude' ];
@@ -73,18 +73,21 @@ class DDW_WPDRSD_Popular_Downloads_Widget extends WP_Widget {
 		}
 
 		/** Parse args */
-		$instance = wp_parse_args( (array) $instance, array(
-			'title'               => '',
-			'items_limit'         => $items_limit,
-			'show_download_count' => 0,
-			'items_exclude'       => $items_exclude
-		) );
+		$instance = wp_parse_args(
+			(array) $instance,
+			array(
+				'title'               => '',
+				'items_limit'         => $items_limit,
+				'show_download_count' => 0,
+				'items_exclude'       => $items_exclude,
+			)
+		);
 
 		/** Set initial values for variables */
 		$output = '';
-		$count = '';
+		$count  = '';
 
-                /** Set the query arguments */
+        /** Set the query arguments */
 		$query_args = array( 
 			'post_type'      => 'document',
 			'posts_per_page' => $items_limit,
@@ -94,8 +97,8 @@ class DDW_WPDRSD_Popular_Downloads_Widget extends WP_Widget {
 			'exclude'        => $items_exclude,
 		);
 
-                /** Get the most popular downloads */
-                $popular_downloads = get_posts( $query_args );
+        /** Get the most popular downloads */
+        $popular_downloads = get_posts( $query_args );
 
 		/** Popular Downloads logic/ check */
 		if ( is_null( $popular_downloads ) || empty( $popular_downloads ) ) {
@@ -132,37 +135,31 @@ class DDW_WPDRSD_Popular_Downloads_Widget extends WP_Widget {
 			/** End of the Downloads listing */
 			$output .= '</ul>';
 
-		}  // end if/else downloads logic
+		}  // end if
 
 		/** Display the before widget HTML */
 		echo $before_widget;
 
 		/** Display the widget title */
 		if ( $instance[ 'title' ] ) {
-
 			echo $before_title . apply_filters( 'widget_title', $instance[ 'title' ] ) . $after_title;
-
-		}  // end-if title
+		}
 
 		/** Action hook 'wpdrsd_before_popular_downloads_widget' */
 		do_action( 'wpdrsd_before_popular_downloads_widget' );
 
 		/** Display widget intro text if it exists */
 		if ( ! empty( $instance[ 'intro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-intro"><p class="' . $this->id . '-intro-text wpdrsd-popular-downloads-intro-text">' . $instance[ 'intro_text' ] . '</p></div>';
-
-		}  // end-if optional intro
+		}
 
 		/** Display main widget content: Downloads count list */
 		echo apply_filters( 'wpdrsd_filter_widget_popular_downloads_content', $output );
 
 		/** Display widget outro text if it exists */
 		if ( ! empty( $instance[ 'outro_text' ] ) ) {
-
 			echo '<div class="wpdrsd-outro"><p class="' . $this->id . '-outro_text wpdrsd-popular-downloads-outro-text">' . $instance[ 'outro_text' ] . '</p></div>';
-
-		}  // end-if optional outro
+		}
 
 		/** Action hook 'wpdrsd_after_popular_downloads_widget' */
 		do_action( 'wpdrsd_after_popular_downloads_widget' );
@@ -217,12 +214,15 @@ class DDW_WPDRSD_Popular_Downloads_Widget extends WP_Widget {
 	public function form( $instance ) {
 
 		/** Setup defaults parameters */
-		$defaults = apply_filters( 'wpdrsd_filter_widget_popular_downloads_defaults', array(
-			'title'               => __( 'Popular Downloads', 'wpdr-simple-downloads' ),
-			'items_limit'         => 3,
-			'show_download_count' => 0,
-			'items_exclude'       => ''
-		) );
+		$defaults = apply_filters(
+			'wpdrsd_filter_widget_popular_downloads_defaults',
+			array(
+				'title'               => __( 'Popular Downloads', 'wpdr-simple-downloads' ),
+				'items_limit'         => 3,
+				'show_download_count' => 0,
+				'items_exclude'       => '',
+			)
+		);
 
 		/** Get the values from the instance */
 		$instance = wp_parse_args( (array) $instance, $defaults );
