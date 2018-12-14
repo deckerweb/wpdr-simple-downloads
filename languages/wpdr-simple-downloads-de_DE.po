@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Document Revisions Simple DownloadsPOT-Creation-Date: "
 "2018-12-12 11:07+0100\n"
-"POT-Creation-Date: 2018-12-12 23:27+0100\n"
-"PO-Revision-Date: 2018-12-12 23:27+0100\n"
+"POT-Creation-Date: 2018-12-14 01:24+0100\n"
+"PO-Revision-Date: 2018-12-14 01:24+0100\n"
 "Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language: de_DE\n"
@@ -113,7 +113,7 @@ msgstr ""
 #: includes/admin/views/wpdrsd-settings-tab.php:83
 #: includes/admin/views/wpdrsd-settings-tab.php:124
 #: includes/admin/views/wpdrsd-settings-tab.php:200
-#: includes/admin/wpdrsd-admin-extras.php:31 includes/wpdrsd-functions.php:51
+#: includes/admin/wpdrsd-admin-extras.php:31 includes/wpdrsd-functions.php:54
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -202,7 +202,7 @@ msgstr ""
 
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-settings-tab.php:136
-#: includes/widgets/wpdrsd-widget-taxonomies.php:298
+#: includes/widgets/wpdrsd-widget-taxonomies.php:293
 #: includes/wpdrsd-taxonomies.php:42
 msgid "File Categories"
 msgstr "Dateikategorien"
@@ -224,7 +224,7 @@ msgstr ""
 
 # @ wpdr-simple-downloads
 #: includes/admin/views/wpdrsd-settings-tab.php:140
-#: includes/widgets/wpdrsd-widget-taxonomies.php:301
+#: includes/widgets/wpdrsd-widget-taxonomies.php:296
 #: includes/wpdrsd-taxonomies.php:72
 msgid "File Tags"
 msgstr "Datei-Schlagwörter"
@@ -444,7 +444,7 @@ msgstr "WPDR"
 # @ wpdr-simple-downloads
 #: includes/admin/wpdrsd-admin-extras.php:208
 #: includes/admin/wpdrsd-admin-settings-help.php:73
-#: wpdr-simple-downloads.php:158
+#: wpdr-simple-downloads.php:157
 msgid "Plugin"
 msgstr "Plugin"
 
@@ -456,7 +456,7 @@ msgstr "Plugin"
 #: includes/admin/wpdrsd-admin-settings-help.php:106
 #: includes/admin/wpdrsd-admin-settings-help.php:141
 #: includes/admin/wpdrsd-admin-settings.php:34 uninstall.php:42
-#: uninstall.php:52 wpdr-simple-downloads.php:150 wpdr-simple-downloads.php:158
+#: uninstall.php:52 wpdr-simple-downloads.php:149 wpdr-simple-downloads.php:157
 msgid "WP Document Revisions Simple Downloads"
 msgstr "WP Document Revisions Einfache Downloads"
 
@@ -705,7 +705,7 @@ msgid "Tagged:"
 msgstr "Stichworte:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-popular-downloads.php:221
+#: includes/widgets/wpdrsd-widget-popular-downloads.php:220
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:246
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:270
 msgid "Popular Downloads"
@@ -713,25 +713,25 @@ msgstr "Beliebte Downloads"
 
 # @ wpdr-simple-downloads
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:239
-#: includes/widgets/wpdrsd-widget-search.php:194
-#: includes/widgets/wpdrsd-widget-taxonomies.php:282
+#: includes/widgets/wpdrsd-widget-search.php:196
+#: includes/widgets/wpdrsd-widget-taxonomies.php:277
 msgid "Title:"
 msgstr "Titel:"
 
 # @ wpdr-simple-downloads
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:245
-#: includes/widgets/wpdrsd-widget-search.php:200
-#: includes/widgets/wpdrsd-widget-taxonomies.php:288
+#: includes/widgets/wpdrsd-widget-search.php:202
+#: includes/widgets/wpdrsd-widget-taxonomies.php:283
 msgid "Optional intro text:"
 msgstr "Optionaler Einführungstext:"
 
 # @ wpdr-simple-downloads
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:246
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:270
-#: includes/widgets/wpdrsd-widget-search.php:201
-#: includes/widgets/wpdrsd-widget-search.php:232
-#: includes/widgets/wpdrsd-widget-taxonomies.php:289
-#: includes/widgets/wpdrsd-widget-taxonomies.php:347
+#: includes/widgets/wpdrsd-widget-search.php:203
+#: includes/widgets/wpdrsd-widget-search.php:234
+#: includes/widgets/wpdrsd-widget-taxonomies.php:284
+#: includes/widgets/wpdrsd-widget-taxonomies.php:342
 #, php-format
 msgid "Add some additional %s info. NOTE: Just leave blank to not use at all."
 msgstr ""
@@ -755,150 +755,150 @@ msgstr "Auszuschließende Download-IDs, kommagetrennt:"
 
 # @ wpdr-simple-downloads
 #: includes/widgets/wpdrsd-widget-popular-downloads.php:269
-#: includes/widgets/wpdrsd-widget-search.php:231
-#: includes/widgets/wpdrsd-widget-taxonomies.php:346
+#: includes/widgets/wpdrsd-widget-search.php:233
+#: includes/widgets/wpdrsd-widget-taxonomies.php:341
 msgid "Optional outro text:"
 msgstr "Optionaler Schlusstext:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:175
-#: includes/wpdrsd-functions.php:47
+#: includes/widgets/wpdrsd-widget-search.php:176
+#: includes/wpdrsd-functions.php:50
 msgid "Search Downloads"
 msgstr "Downloads suchen"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:176
+#: includes/widgets/wpdrsd-widget-search.php:177
 msgid "Search download files for:"
 msgstr "In Download-Dateien suchen nach:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:177
+#: includes/widgets/wpdrsd-widget-search.php:178
 msgid "Search Downloads&#x2026;"
 msgstr "Downloads suchen&#x2026;"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:178
-#: includes/widgets/wpdrsd-widget-search.php:201
-#: includes/widgets/wpdrsd-widget-search.php:232
+#: includes/widgets/wpdrsd-widget-search.php:179
+#: includes/widgets/wpdrsd-widget-search.php:203
+#: includes/widgets/wpdrsd-widget-search.php:234
 msgid "Search"
 msgstr "Suchen"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:208
+#: includes/widgets/wpdrsd-widget-search.php:210
 msgid "Label string before search input field:"
 msgstr "Beschriftung vor dem Sucheingabefeld:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:210
-#: includes/widgets/wpdrsd-widget-search.php:218
+#: includes/widgets/wpdrsd-widget-search.php:212
+#: includes/widgets/wpdrsd-widget-search.php:220
 msgid "NOTE: Leave empty to not use/ display this string!"
 msgstr "HINWEIS: Leer lassen, um diese Option nicht zu verwenden!"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:216
+#: includes/widgets/wpdrsd-widget-search.php:218
 msgid "Placeholder string for search input field:"
 msgstr "Platzhalter-Begriff für das Sucheingabefeld:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:224
+#: includes/widgets/wpdrsd-widget-search.php:226
 msgid "Search button string:"
 msgstr "'Suchen'-Button Text:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-search.php:226
+#: includes/widgets/wpdrsd-widget-search.php:228
 msgid "NOTE: Displaying may depend on your theme settings/ styles."
 msgstr ""
 "HINWEIS: Die Anzeige kann von deinen Theme-Einstellungen/ -Stilen abhängig "
 "sein."
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:289
-#: includes/widgets/wpdrsd-widget-taxonomies.php:347
+#: includes/widgets/wpdrsd-widget-taxonomies.php:284
+#: includes/widgets/wpdrsd-widget-taxonomies.php:342
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:295
+#: includes/widgets/wpdrsd-widget-taxonomies.php:290
 msgid "Taxonomy:"
 msgstr "Taxonomie:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:307
+#: includes/widgets/wpdrsd-widget-taxonomies.php:302
 msgid "Number of Taxonomy Terms to show:"
 msgstr "Anzahl anzuzeigender Taxonomie-Terms:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:313
+#: includes/widgets/wpdrsd-widget-taxonomies.php:308
 msgid "Sort by:"
 msgstr "Sortieren nach:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:316
+#: includes/widgets/wpdrsd-widget-taxonomies.php:311
 msgid "Term name"
 msgstr "Term-Name"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:317
+#: includes/widgets/wpdrsd-widget-taxonomies.php:312
 msgid "Term count"
 msgstr "Term-Anzahl"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:318
+#: includes/widgets/wpdrsd-widget-taxonomies.php:313
 msgid "Term ID"
 msgstr "Term-ID"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:319
+#: includes/widgets/wpdrsd-widget-taxonomies.php:314
 msgid "Term slug"
 msgstr "Term-Permalinkteil"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:320
+#: includes/widgets/wpdrsd-widget-taxonomies.php:315
 msgid "Term group"
 msgstr "Term-Gruppe"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:329
+#: includes/widgets/wpdrsd-widget-taxonomies.php:324
 msgid "Reverse sort order (to descending)"
 msgstr "Sortierrichtung umkehren (zu absteigend)"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:329
+#: includes/widgets/wpdrsd-widget-taxonomies.php:324
 msgid "Default is ascending"
 msgstr "Standard ist aufsteigend"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:334
+#: includes/widgets/wpdrsd-widget-taxonomies.php:329
 msgid "Taxonomy Term IDs to exclude, separated by comma:"
 msgstr "Auszuschließende Taxonomie-Term-IDs, kommagetrennt:"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:336
-#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+#: includes/widgets/wpdrsd-widget-taxonomies.php:331
+#: includes/widgets/wpdrsd-widget-taxonomies.php:337
 #, php-format
 msgid "Please, use only one or the other alternative, %s or %s!"
 msgstr "Bitte verwende nur eine Alternative, %s oder %s!"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:336
-#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+#: includes/widgets/wpdrsd-widget-taxonomies.php:331
+#: includes/widgets/wpdrsd-widget-taxonomies.php:337
 msgid "Exclude"
 msgstr "Auschließen"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:336
-#: includes/widgets/wpdrsd-widget-taxonomies.php:342
+#: includes/widgets/wpdrsd-widget-taxonomies.php:331
+#: includes/widgets/wpdrsd-widget-taxonomies.php:337
 msgid "Include"
 msgstr "Einschließen"
 
 # @ wpdr-simple-downloads
-#: includes/widgets/wpdrsd-widget-taxonomies.php:340
+#: includes/widgets/wpdrsd-widget-taxonomies.php:335
 msgid "Taxonomy Term IDs to include, separated by comma:"
 msgstr "Einzuschließende Taxonomie-Term-IDs, kommagetrennt:"
 
 # @ wpdr-simple-downloads
 #: includes/wpdrsd-download-count.php:30 includes/wpdrsd-download-id.php:30
-#: includes/wpdrsd-functions.php:157
+#: includes/wpdrsd-functions.php:166
 msgid "Added by WPDR Simple Downloads Plugin"
 msgstr "Hinzugefügt via WPDR Einfache Downloads Plugin"
 
@@ -935,68 +935,99 @@ msgid "David Decker - DECKERWEB"
 msgstr "David Decker - DECKERWEB.de"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:40
+#: includes/wpdrsd-functions.php:43
 msgctxt "Translators: post type general name (plural)"
 msgid "Downloads"
 msgstr "Downloads"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:41
+#: includes/wpdrsd-functions.php:44
 msgctxt "Translators: post type singular name"
 msgid "Download"
 msgstr "Download"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:42
+#: includes/wpdrsd-functions.php:45
 msgctxt "Translators: download"
 msgid "Add Download"
 msgstr "Download hinzufügen"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:43
+#: includes/wpdrsd-functions.php:46
 msgid "Add New Download"
 msgstr "Neuen Download hinzufügen"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:44
+#: includes/wpdrsd-functions.php:47
 msgid "Edit Download"
 msgstr "Download bearbeiten"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:45
+#: includes/wpdrsd-functions.php:48
 msgid "New Download"
 msgstr "Neuer Download"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:46
+#: includes/wpdrsd-functions.php:49
 msgid "View Download"
 msgstr "Download ansehen"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:48
+#: includes/wpdrsd-functions.php:51
 msgid "No Downloads found"
 msgstr "Es wurden keine Downloads gefunden."
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:49
+#: includes/wpdrsd-functions.php:52
 msgid "No Downloads found in Trash"
 msgstr "Es befinden sich keine Downloads im Papierkorb."
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:53
+#: includes/wpdrsd-functions.php:55
+msgid "All Downloads"
+msgstr "Alle Downloads"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:56
+msgid "Download Image"
+msgstr "Download-Bild"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:57
+msgid "Set Download Image"
+msgstr "Download-Bild festlegen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:58
+msgid "Remove Download Image"
+msgstr "Download-Bild entfernen"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:59
+msgid "Use as Download Image"
+msgstr "Als Download-Bild verwenden"
+
+# @ wpdr-simple-downloads
+#: includes/wpdrsd-functions.php:61
 msgctxt "Translators: Toolbar, add new item"
 msgid "Download File"
 msgstr "Datei-Download"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:157
+#: includes/wpdrsd-functions.php:166
 msgid "Rev. Log"
 msgstr "Vers.-Info"
 
 # @ wpdr-simple-downloads
-#: includes/wpdrsd-functions.php:180
+#: includes/wpdrsd-functions.php:189
 msgid "n.a."
 msgstr "k.A."
+
+#. translators: %s - Taxonomy label (All file categories / All file tags)
+#: includes/wpdrsd-functions.php:230
+#, php-format
+msgid "All %s"
+msgstr "Alle %s"
 
 # @ wpdr-simple-downloads
 #: includes/wpdrsd-remove-date-from-permalink.php:59
@@ -1140,7 +1171,7 @@ msgstr "Du hast keine Berechtigung, um dieses Skript ausführen zu können."
 
 # @ wpdr-simple-downloads
 #. translators: %1$s - name of plugin, "WP Document Revisions Simple Downloads" / %2$s - opening link markup / %3$s - closing link markup
-#: wpdr-simple-downloads.php:149
+#: wpdr-simple-downloads.php:148
 #, php-format
 msgid ""
 "Sorry, you cannot activate the %1$s plugin unless you have installed the "

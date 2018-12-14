@@ -28,28 +28,36 @@ add_filter( 'register_post_type_args', 'ddw_wpdrsd_post_type_as_downloads', 10, 
  */
 function ddw_wpdrsd_post_type_as_downloads( $args, $post_type ) {
 
+	/** Get plugin's options */
 	$options = ddw_wpdrsd_get_options();
 
+	/** Bail early if no "Downloads" wording wanted */
 	if ( ! $options[ 'wpdrsd_downloads_labels' ] ) {
-		return;
+		return $args;
 	}
 
+	/** Only for 'document' post type */
     if ( 'document' === $post_type ) {
  
 	 	$args[ 'labels' ] = array(
-			'name'               => _x( 'Downloads', 'Translators: post type general name (plural)', 'wpdr-simple-downloads' ),
-			'singular_name'      => _x( 'Download', 'Translators: post type singular name', 'wpdr-simple-downloads' ),
-			'add_new'            => _x( 'Add Download', 'Translators: download', 'wpdr-simple-downloads' ),
-			'add_new_item'       => __( 'Add New Download', 'wpdr-simple-downloads' ),
-			'edit_item'          => __( 'Edit Download', 'wpdr-simple-downloads' ),
-			'new_item'           => __( 'New Download', 'wpdr-simple-downloads' ),
-			'view_item'          => __( 'View Download', 'wpdr-simple-downloads' ),
-			'search_items'       => __( 'Search Downloads', 'wpdr-simple-downloads' ),
-			'not_found'          => __( 'No Downloads found', 'wpdr-simple-downloads' ),
-			'not_found_in_trash' => __( 'No Downloads found in Trash', 'wpdr-simple-downloads' ), 
-			'parent_item_colon'  => '',
-			'menu_name'          => __( 'Downloads', 'wpdr-simple-downloads' ),
-			'name_admin_bar'     => _x(
+			'name'                  => _x( 'Downloads', 'Translators: post type general name (plural)', 'wpdr-simple-downloads' ),
+			'singular_name'         => _x( 'Download', 'Translators: post type singular name', 'wpdr-simple-downloads' ),
+			'add_new'               => _x( 'Add Download', 'Translators: download', 'wpdr-simple-downloads' ),
+			'add_new_item'          => __( 'Add New Download', 'wpdr-simple-downloads' ),
+			'edit_item'             => __( 'Edit Download', 'wpdr-simple-downloads' ),
+			'new_item'              => __( 'New Download', 'wpdr-simple-downloads' ),
+			'view_item'             => __( 'View Download', 'wpdr-simple-downloads' ),
+			'search_items'          => __( 'Search Downloads', 'wpdr-simple-downloads' ),
+			'not_found'             => __( 'No Downloads found', 'wpdr-simple-downloads' ),
+			'not_found_in_trash'    => __( 'No Downloads found in Trash', 'wpdr-simple-downloads' ), 
+			'parent_item_colon'     => '',
+			'menu_name'             => __( 'Downloads', 'wpdr-simple-downloads' ),
+			'all_items'             => __( 'All Downloads', 'wpdr-simple-downloads' ),
+			'featured_image'        => __( 'Download Image', 'wpdr-simple-downloads' ),
+			'set_featured_image'    => __( 'Set Download Image', 'wpdr-simple-downloads' ),
+			'remove_featured_image' => __( 'Remove Download Image', 'wpdr-simple-downloads' ),
+			'use_featured_image'    => __( 'Use as Download Image', 'wpdr-simple-downloads' ),
+			'name_admin_bar'        => _x(
 				'Download File',
 				'Translators: Toolbar, add new item',
 				'wpdr-simple-downloads'
@@ -58,7 +66,7 @@ function ddw_wpdrsd_post_type_as_downloads( $args, $post_type ) {
 
 		$args[ 'supports' ] = apply_filters(
 			'wpdrsd_filter_post_type_supports',
-			array( 'title', 'author', 'revisions', 'excerpt', 'custom-fields' )
+			$args[ 'supports' ]
 		);
 
 		$args[ 'menu_icon' ] = sanitize_html_class(
@@ -136,7 +144,8 @@ function wpdrsd_show_downloads_revision_log() {
 	) {
 
 		add_filter( 'manage_edit-document_columns', 'ddw_wpdrsd_do_show_downloads_revision_log' );
-		add_action( 'manage_posts_custom_column', 'ddw_wpdrsd_show_downloads_excerpt_custom_columns' );
+		//add_action( 'manage_posts_custom_column', 'ddw_wpdrsd_show_downloads_excerpt_custom_columns' );
+		add_action( 'manage_document_posts_custom_column', 'ddw_wpdrsd_show_downloads_excerpt_custom_columns' );
 
 	}  // end if
 
@@ -182,5 +191,105 @@ function ddw_wpdrsd_show_downloads_excerpt_custom_columns( $column ) {
 		echo $excerpt;
 
 	}  // end if
+
+}  // end function
+
+
+add_action( 'restrict_manage_posts', 'ddw_wpdrsd_filter_post_type_by_taxonomy', 100 );
+/**
+ * Display a custom taxonomy dropdown for the post type overview table.
+ *
+ * The below code was used from/ inspired by:
+ * @author Mike Hemberger
+ * @link   http://thestizmedia.com/custom-post-type-filter-admin-custom-taxonomy/
+ *
+ * @since  1.2.1
+ *
+ * @uses   wp_dropdown_categories()
+ *
+ * @global $GLOBALS[ 'pagenow' ]
+ */
+function ddw_wpdrsd_filter_post_type_by_taxonomy() {
+
+	$filters = array(
+		'categories' => 'wpdr-file-categories',
+		'tags'       => 'wpdr-file-tags',
+	);
+
+	foreach ( $filters as $filter ) {
+
+		$post_type = 'document';
+		$taxonomy  = $filter;
+
+		if ( $post_type == $GLOBALS[ 'typenow' ] ) {
+
+			$selected      = isset( $_GET[ $taxonomy ] ) ? sanitize_key( wp_unslash( $_GET[ $taxonomy ] ) ) : '';
+			$info_taxonomy = get_taxonomy( $taxonomy );
+			$tax_label     = sprintf(
+				/* translators: %s - Taxonomy label (All file categories / All file tags) */
+				esc_attr__( 'All %s', 'wpdr-simple-downloads' ),
+				$info_taxonomy->label
+			);
+
+			wp_dropdown_categories(
+				array(
+					'show_option_all' => $tax_label,
+					'taxonomy'        => $taxonomy,
+					'name'            => $taxonomy,
+					'orderby'         => 'name',
+					'selected'        => $selected,
+					'show_count'      => TRUE,
+					'hide_empty'      => FALSE,
+				)
+			);
+
+		}  // end if
+
+	}  // end foreach
+
+}  // end function
+
+
+add_filter( 'parse_query', 'ddw_wpdrsd_convert_id_to_term_in_query', 10, 3 );
+/**
+ * Execute the taxonomy filter within the post type overview table.
+ *
+ * The below code was used from/ inspired by:
+ * @author Mike Hemberger
+ * @link   http://thestizmedia.com/custom-post-type-filter-admin-custom-taxonomy/
+ *
+ * @since  1.2.1
+ *
+ * @see    ddw_wpdrsd_filter_post_type_by_taxonomy()
+ *
+ * @global object $GLOBALS[ 'pagenow' ]
+ */
+function ddw_wpdrsd_convert_id_to_term_in_query( $query ) {
+
+	$filters = array(
+		'categories' => 'wpdr-file-categories',
+		'tags'       => 'wpdr-file-tags',
+	);
+
+	foreach ( $filters as $filter ) {
+
+		$post_type = 'document';
+		$taxonomy  = $filter;
+		$q_vars    = &$query->query_vars;
+
+		if ( 'edit.php' === $GLOBALS[ 'pagenow' ]
+			&& isset( $q_vars[ 'post_type' ] )
+			&& $q_vars[ 'post_type' ] == $post_type
+			&& isset( $q_vars[ $taxonomy ] )
+			&& is_numeric( $q_vars[ $taxonomy ] )
+			&& $q_vars[ $taxonomy ] != 0
+		) {
+
+			$term                = get_term_by( 'id', $q_vars[ $taxonomy ], $taxonomy );
+			$q_vars[ $taxonomy ] = $term->slug;
+
+		}  // end if
+
+	}  // end foreach
 
 }  // end function

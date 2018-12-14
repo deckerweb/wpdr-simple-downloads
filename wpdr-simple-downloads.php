@@ -12,7 +12,7 @@
  * Plugin Name:       WP Document Revisions Simple Downloads
  * Plugin URI:        http://github.com/deckerweb/wpdr-simple-downloads
  * Description:       Use the WP Document Revisions plugin as very basic & simple download manager with this additional add-on plugin.
- * Version:           1.2.0
+ * Version:           1.2.1
  * Author:            David Decker - DECKERWEB
  * Author URI:        https://deckerweb.de/
  * License:           GPL-2.0-or-later
@@ -58,7 +58,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.0.0
  */
 /** Set plugin version */
-define( 'WPDRSD_VERSION', '1.2.0' );
+define( 'WPDRSD_VERSION', '1.2.1' );
 
 /** Plugin directory */
 define( 'WPDRSD_PLUGIN_DIR', trailingslashit( dirname( __FILE__ ) ) );

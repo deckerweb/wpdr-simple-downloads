@@ -5,7 +5,7 @@
 **Requires at least:** 4.7+  
 **Tested up to:** 5.0  
 **Requires PHP:** 5.6  
-**Stable tag:** 1.2.0  
+**Stable tag:** 1.2.1  
 **License:** GPL-2.0-or-later  
 **License URI:** https://opensource.org/licenses/GPL-2.0  
 
@@ -274,6 +274,14 @@ All the custom & branding stuff code above can also be found as a Gist on Github
 ## Changelog 
 
 
+### 1.2.1 - 2018-12-14 
+* New: Bring back the taxonomy filters (if taxonomy option set) - but now with non-breaking code
+* New: Successfully tested with latest WP Document Revisions development version from GitHub
+* Update: Improved function for optionally changing to "Downloads" wording - keep default post type support arguments -- Thanks to user feedback ([Topic](https://wordpress.org/support/topic/wpdr-will-support-featured-image/))
+* Update: Few code formatting enhancements throughout
+* Update: `.pot` file for translators, plus German translations
+
+
 ### 1.2.0 - 2018-12-12 
 * *New: Brought the plugin back to life after more than six years, yeah! :)*
 * New: Release on GitHub.com as well (for issues, development etc.), see here: [https://github.com/deckerweb/wpdr-simple-downloads](https://github.com/deckerweb/wpdr-simple-downloads)
@@ -310,6 +318,10 @@ All the custom & branding stuff code above can also be found as a Gist on Github
 
 
 ## Upgrade Notice 
+
+
+### 1.2.1 
+**Major release: Back in life :-)** - Fully working again. All code fixed, refactored and improved. - Have fun managing your download files ;-) -- **Update highly recommended!**
 
 
 ### 1.2.0 

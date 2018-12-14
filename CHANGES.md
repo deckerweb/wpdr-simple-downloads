@@ -12,6 +12,15 @@
 
 ## Changelog of the Plugin
 
+### 1.2.1 - 2018-12-14 
+
+* New: Bring back the taxonomy filters (if taxonomy option set) - but now with non-breaking code
+* New: Successfully tested with latest WP Document Revisions development version from GitHub
+* Update: Improved function for optionally changing to "Downloads" wording - keep default post type support arguments -- Thanks to user feedback ([Topic](https://wordpress.org/support/topic/wpdr-will-support-featured-image/))
+* Update: Few code formatting enhancements throughout
+* Update: `.pot` file for translators, plus German translations
+
+
 ### 1.2.0 - 2018-12-12 
 
 * *New: Brought the plugin back to life after more than six years, yeah! :)*
