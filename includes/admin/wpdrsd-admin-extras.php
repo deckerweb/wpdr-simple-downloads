@@ -74,7 +74,7 @@ function ddw_wpdrsd_plugin_links( $wpdrsd_links, $wpdrsd_file ) {
 	}
 
 	/** List additional links only for this plugin */
-	if ( $wpdrsd_file == WPDRSD_PLUGIN_BASEDIR . 'wpdr-simple-downloads.php' ) {
+	if ( $wpdrsd_file === WPDRSD_PLUGIN_BASEDIR . 'wpdr-simple-downloads.php' ) {
 
 		?>
 			<style type="text/css">
