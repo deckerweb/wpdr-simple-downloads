@@ -91,6 +91,7 @@ You can also contribute code-wise via our [WP Document Revisions Simple Download
 * Then please **rate us 5 stars** on [WordPress.org](https://wordpress.org/support/plugin/wpdr-simple-downloads/reviews/?filter=5/#new-post) :)
 * Join our [**Facebook User Community Support Group**](https://www.facebook.com/groups/deckerweb.wordpress.plugins/)
 * Like our [**Facebook Info Page for Deckerweb Plugins**](https://www.facebook.com/deckerweb.wordpress.plugins/)
+* [**Subscribe to my Newsletter for insider info on this plugin**](https://eepurl.com/gbAUUn), plus tutorials and more stuff on deckerweb WordPress plugins - join a thriving community of site builders!
 
 
 ### Recommended Time Saver 
@@ -377,3 +378,4 @@ Enjoy using *WP Document Revisions Simple Downloads*? Please consider [making a 
 * [Genesis Widgetized Archive](https://wordpress.org/plugins/genesis-widgetized-archive/)
 * [Multisite Toolbar Additions](https://wordpress.org/plugins/multisite-toolbar-additions/)
 * [Cleaner Plugin Installer](https://wordpress.org/plugins/cleaner-plugin-installer/)
+* [*My plugins newsletter*](https://eepurl.com/gbAUUn)
