@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @since 1.2.0 Refactoring
  *
  * @param  array $wpdrsd_links (Default) Array of plugin action links.
- * @return strings $wpdrsd_links Modified plugin action links.
+ * @return string $wpdrsd_links Modified plugin action links.
  */
 function ddw_wpdrsd_settings_page_link( $wpdrsd_links ) {
 

@@ -16,6 +16,8 @@ Use the WP Document Revisions plugin as very basic & simple download manager wit
 = ADD-ON PLUGIN for "WP Document Revisions" (WPDR) =
 Want to offer public file downloads? Just use "WP Document Revisions" plus this little add-on plugin! This **small and lightweight** add-on plugin just adds a few specific additions to the **awesome WPDR base plugin which does all the heavy lifting for you!**
 
+https://www.youtube.com/watch?v=NmT1MWFdzUI
+
 For my own projects I needed a new but robust and future-proof plugin with a custom post type solution to replace an old, unsupported download counter plugin. With its many benefits I wanted WPDR as a base foundation for that. Now, that I've finally found my solution, I hope it may help you as well :-).
 
 = What this Add-On does - General Features =
@@ -74,6 +76,7 @@ You can also contribute code-wise via our [WP Document Revisions Simple Download
 * Then please **rate us 5 stars** on [WordPress.org](https://wordpress.org/support/plugin/wpdr-simple-downloads/reviews/?filter=5/#new-post) :)
 * Join our [**Facebook User Community Support Group**](https://www.facebook.com/groups/deckerweb.wordpress.plugins/)
 * Like our [**Facebook Info Page for Deckerweb Plugins**](https://www.facebook.com/deckerweb.wordpress.plugins/)
+* [**Subscribe to my Newsletter for insider info on this plugin**](https://eepurl.com/gbAUUn), plus tutorials and more stuff on deckerweb WordPress plugins - join a thriving community of site builders!
 
 = Recommended Time Saver =
 Try [**Toolbar Extras**](https://toolbarextras.com/) my other plugin for Site Builders and admins: Building sites with Elementor? [**Your work will get easier & faster with Toolbar Extras.**](https://wordpress.org/plugins/toolbar-extras/) With extended plugin & theme support baked right in. Of course, "Builder Template Categories" is integrated as well :)
@@ -227,6 +230,9 @@ All the custom & branding stuff code above can also be found as a Gist on Github
 
 == Changelog ==
 
+([Join my WordPress plugins newsletter](https://eepurl.com/gbAUUn))
+
+
 = 1.2.1 - 2018-12-14 =
 * New: Bring back the taxonomy filters (if taxonomy option set) - but now with non-breaking code
 * New: Successfully tested with latest WP Document Revisions development version from GitHub
@@ -312,3 +318,4 @@ Enjoy using *WP Document Revisions Simple Downloads*? Please consider [making a 
 * [Genesis Widgetized Archive](https://wordpress.org/plugins/genesis-widgetized-archive/)
 * [Multisite Toolbar Additions](https://wordpress.org/plugins/multisite-toolbar-additions/)
 * [Cleaner Plugin Installer](https://wordpress.org/plugins/cleaner-plugin-installer/)
+* [*My plugins newsletter*](https://eepurl.com/gbAUUn)

@@ -20,6 +20,9 @@ Use the WP Document Revisions plugin as very basic & simple download manager wit
 ### ADD-ON PLUGIN for "WP Document Revisions" (WPDR) 
 Want to offer public file downloads? Just use "WP Document Revisions" plus this little add-on plugin! This **small and lightweight** add-on plugin just adds a few specific additions to the **awesome WPDR base plugin which does all the heavy lifting for you!**
 
+[![Video of Plugin's Live Demo and Walkthrough](https://img.youtube.com/vi/NmT1MWFdzUI/0.jpg)](https://www.youtube.com/watch?v=NmT1MWFdzUI)
+[**original video link**](https://www.youtube.com/watch?v=NmT1MWFdzUI) *by plugin developer David Decker*
+
 For my own projects I needed a new but robust and future-proof plugin with a custom post type solution to replace an old, unsupported download counter plugin. With its many benefits I wanted WPDR as a base foundation for that. Now, that I've finally found my solution, I hope it may help you as well :-).
 
 
@@ -272,6 +275,9 @@ All the custom & branding stuff code above can also be found as a Gist on Github
 
 
 ## Changelog 
+
+
+([Join my WordPress plugins newsletter](https://eepurl.com/gbAUUn))
 
 
 ### 1.2.1 - 2018-12-14 

@@ -4,6 +4,7 @@
 
 * [Plugin page on WordPress.org: wordpress.org/plugins/wpdr-simple-downloads/](https://wordpress.org/plugins/wpdr-simple-downloads/)
 * [Translate the plugin](https://translate.wordpress.org/projects/wp-plugins/wpdr-simple-downloads)
+* [**Join plugin's newsletter for insider info, tutorials and more**](https://eepurl.com/gbAUUn)
 * [**Donate** for the further development & support of the plugin](https://www.paypal.me/deckerweb)
 * [Plugin's documentation & FAQ](https://wordpress.org/plugins/wpdr-simple-downloads/#faq)
 * [Facebook Community User Group](https://www.facebook.com/groups/deckerweb.wordpress.plugins/)
